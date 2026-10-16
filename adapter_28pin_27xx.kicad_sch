@@ -1,0 +1,355 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "8a744ae3-28c2-512f-8eef-6d49911439cc")
+	(paper "A3")
+	(title_block
+		(title "NM27C512 Dumper - Stage 2 Rev A")
+		(date "2026-10-06")
+		(rev "A")
+		(comment 1 "5 V logic / external VPP only / no PCB layout")
+	)
+	(lib_symbols)
+	(text "Pin 01: 64/128/256: VPP; 512: A15"
+		(exclude_from_sim no)
+		(at 23 48 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "014ee8df-2d34-51e8-9337-b47d648a2bdb")
+	)
+	(text "Pin 13: D2"
+		(exclude_from_sim no)
+		(at 23 132 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "15b2fa8e-fd2b-5f43-a887-dbdc940528f4")
+	)
+	(text "Pin 08: A2"
+		(exclude_from_sim no)
+		(at 23 97 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "1a178b6e-a1fb-5f42-a103-09f3e80d78d9")
+	)
+	(text "Pin 17: D5"
+		(exclude_from_sim no)
+		(at 213 62 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "253f8177-32e4-50cf-b089-82112dbbc852")
+	)
+	(text "Pin 05: A5"
+		(exclude_from_sim no)
+		(at 23 76 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "3b19a95d-bd84-5c78-bf2c-27890c583010")
+	)
+	(text "Pin 21: A10"
+		(exclude_from_sim no)
+		(at 213 90 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "414ca050-3534-553b-b5e6-64d364c86660")
+	)
+	(text "Pin 14: GND"
+		(exclude_from_sim no)
+		(at 23 139 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "470679f9-636f-5e39-930e-c2f2b36537a4")
+	)
+	(text "Pin 18: D6"
+		(exclude_from_sim no)
+		(at 213 69 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "49d67cdf-802a-5d8e-99d5-e8a3954bff84")
+	)
+	(text "2764/27128: pin27 is PGM#, NOT A14. 27256: pin27 is A14.\nDo not route a 595 output onto a VPP pin. Use keyed jumpers or a device-specific adapter.\nVPP on pin1 needs READ +5V selection, separate from the onboard NM27C512 relay.\nRead-only adapters may tie VPP and unused PGM# HIGH. WRITE remains disabled for these profiles.\nSources: National NM27C512 and Intel 2764 / 27128A / 27256 original datasheets."
+		(exclude_from_sim no)
+		(at 20 170 0)
+		(effects
+			(font
+				(size 1.4 1.4)
+			)
+			(justify left)
+		)
+		(uuid "60fc3bfc-a5f9-516f-89cc-9d361a640861")
+	)
+	(text "Pin 03: A7"
+		(exclude_from_sim no)
+		(at 23 62 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "6c028436-688c-5dd1-988c-a3e2a940f5c8")
+	)
+	(text "28-pin EPROM adapter reference"
+		(exclude_from_sim no)
+		(at 15 15 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left)
+		)
+		(uuid "78a6fe73-b08b-5995-87f5-1c5ef2945b0d")
+	)
+	(text "Pin 15: D3"
+		(exclude_from_sim no)
+		(at 213 48 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "831f5220-2586-562b-851c-eb41de77faaf")
+	)
+	(text "Pin 27: 64/128: PGM#; 256/512: A14"
+		(exclude_from_sim no)
+		(at 213 132 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "90af3b34-e6cb-5854-b847-e3d8ad8cedaf")
+	)
+	(text "Pin 16: D4"
+		(exclude_from_sim no)
+		(at 213 55 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "961eb3c0-382f-5f6f-b822-c293da245a6d")
+	)
+	(text "Pin 07: A3"
+		(exclude_from_sim no)
+		(at 23 90 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "96f09d49-beea-55b4-b96c-b3b45a3490e3")
+	)
+	(text "Pin 04: A6"
+		(exclude_from_sim no)
+		(at 23 69 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "96fe7423-882c-5066-b894-dff766dc3f10")
+	)
+	(text "Pin 24: A9"
+		(exclude_from_sim no)
+		(at 213 111 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "9839a1b1-dc07-564a-a03e-ecb6f4d4d528")
+	)
+	(text "Pin 02: A12"
+		(exclude_from_sim no)
+		(at 23 55 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "9cb2a610-919c-5d8f-8be1-0411934fb62b")
+	)
+	(text "Pin 20: 64/128: CE#; 256/512: CE/PGM#"
+		(exclude_from_sim no)
+		(at 213 83 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "a70ab4da-a9a8-5cf8-b528-5ff994fb458b")
+	)
+	(text "Pin 22: 64/128/256: OE#; 512: OE/VPP"
+		(exclude_from_sim no)
+		(at 213 97 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "a9f61289-cb5c-5a6b-9595-c3fb8f5d3af4")
+	)
+	(text "REFERENCE ONLY - logical mapping for future adapter PCBs, not additional live targets"
+		(exclude_from_sim no)
+		(at 20 28 0)
+		(effects
+			(font
+				(size 1.6 1.6)
+			)
+			(justify left)
+		)
+		(uuid "c1dd960c-ece5-5135-8a33-bf25dddbfda1")
+	)
+	(text "Pin 09: A1"
+		(exclude_from_sim no)
+		(at 23 104 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "c305759e-3244-5240-9611-b4f5ac672393")
+	)
+	(text "Pin 06: A4"
+		(exclude_from_sim no)
+		(at 23 83 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "c459abaa-b8c8-5aee-8a68-e533af9b8718")
+	)
+	(text "Pin 11: D0"
+		(exclude_from_sim no)
+		(at 23 118 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "c5e7c51b-7094-51d0-a7c9-784143482956")
+	)
+	(text "Pin 12: D1"
+		(exclude_from_sim no)
+		(at 23 125 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "ca5eabac-63d5-5f84-9234-770099547429")
+	)
+	(text "Pin 25: A8"
+		(exclude_from_sim no)
+		(at 213 118 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "d8cdeea2-7506-5ad1-834d-6c36b653d004")
+	)
+	(text "Pin 23: A11"
+		(exclude_from_sim no)
+		(at 213 104 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "dc2c6c5b-cf9f-5baf-b9f4-3defa052be94")
+	)
+	(text "Pin 19: D7"
+		(exclude_from_sim no)
+		(at 213 76 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "dd51f194-59ab-57bb-9198-5750fc9f474a")
+	)
+	(text "Pin 10: A0"
+		(exclude_from_sim no)
+		(at 23 111 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "def34f6a-87a6-5f4e-9c3c-37516f8a320b")
+	)
+	(text "Pin 26: 64: NC; 128/256/512: A13"
+		(exclude_from_sim no)
+		(at 213 125 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "eea8bbd2-29b0-59e8-ae89-f7e617d8b64b")
+	)
+	(text "Pin 28: TARGET_VCC"
+		(exclude_from_sim no)
+		(at 213 139 0)
+		(effects
+			(font
+				(size 1.3 1.3)
+			)
+			(justify left)
+		)
+		(uuid "f5d6adee-7002-54d3-9a16-46a018a38501")
+	)
+)

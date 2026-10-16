@@ -1,0 +1,40 @@
+﻿ref,value,footprint
+J1,USB Micro-B,Connector_USB:USB_Micro-B_Molex-105017-0001
+U4,CH340C,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+C1,10uF / 10V,Capacitor_SMD:C_0805_2012Metric
+C2,100nF,Capacitor_SMD:C_0603_1608Metric
+C3,100nF,Capacitor_SMD:C_0603_1608Metric
+U1,ATmega328P-AU,Package_QFP:TQFP-32_7x7mm_P0.8mm
+C4,100nF,Capacitor_SMD:C_0603_1608Metric
+C5,100nF,Capacitor_SMD:C_0603_1608Metric
+C6,100nF,Capacitor_SMD:C_0603_1608Metric
+C10,100nF,Capacitor_SMD:C_0603_1608Metric
+J2,AVR ISP,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical
+Y1,16MHz / CL ~18pF,Crystal:Crystal_HC49-4H_Vertical
+C11,22pF,Capacitor_SMD:C_0603_1608Metric
+C12,22pF,Capacitor_SMD:C_0603_1608Metric
+R1,10k,Resistor_SMD:R_0603_1608Metric
+SW1,RESET,Button_Switch_THT:SW_PUSH_6mm
+D4,BAT54WS,Diode_SMD:D_SOD-323
+C13,100nF,Capacitor_SMD:C_0603_1608Metric
+U2,74HC595D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+C7,100nF,Capacitor_SMD:C_0603_1608Metric
+U3,74HC595D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+C8,100nF,Capacitor_SMD:C_0603_1608Metric
+R4,10k LATCH,Resistor_SMD:R_0603_1608Metric
+R2,10k CE,Resistor_SMD:R_0603_1608Metric
+R3,10k OE,Resistor_SMD:R_0603_1608Metric
+U5,NM27C512Q SOCKET,Package_DIP:DIP-28_W15.24mm_Socket_LongPads
+C9,100nF,Capacitor_SMD:C_0603_1608Metric
+R8,10k,Resistor_SMD:R_0603_1608Metric
+Q1,MMBT3906,Package_TO_SOT_SMD:SOT-23
+R10,1k,Resistor_SMD:R_0603_1608Metric
+D2,RX BLUE,LED_SMD:LED_0603_1608Metric
+R9,10k,Resistor_SMD:R_0603_1608Metric
+Q2,MMBT3906,Package_TO_SOT_SMD:SOT-23
+R11,1k,Resistor_SMD:R_0603_1608Metric
+D3,TX ORANGE,LED_SMD:LED_0603_1608Metric
+R5,1k,Resistor_SMD:R_0603_1608Metric
+R6,1k,Resistor_SMD:R_0603_1608Metric
+R7,1k,Resistor_SMD:R_0603_1608Metric
+D1,RGB CA / 5050 OR THT5,ProjectFootprints:RGB_CA_5050_or_THT5

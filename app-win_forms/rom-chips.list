@@ -1,0 +1,7 @@
+<!-- UTF-8 XML fragments. id="" means unknown; no ID voltage is applied.
+     pins selects the read wiring; capacity alone never changes address mapping.
+     Entries below refer to National/Fairchild parts in 28-pin DIP packages. -->
+<NM27C512 id="" page="1" size="65536" vcc="5.0" bus="parallel8" pins="27C512"/>
+<NM27C256 id="" page="1" size="32768" vcc="5.0" bus="parallel8" pins="27C256"/>
+<NM27C128 id="" page="1" size="16384" vcc="5.0" bus="parallel8" pins="27C128"/>
+<KR573RF5 id="" page="1" size="2048" vcc="5.0" bus="parallel8" adapt="adapter_KR573RF5" comment="КР573РФ5"/>

@@ -1,0 +1,126 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-07T19:35:19",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "schematic_parity": [
+        {
+            "description": "Duplicate footprints",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 63.75,
+                        "y": 64.75
+                    },
+                    "uuid": "8b52e404-4607-4682-80e2-871bc2de626d"
+                },
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 68.25
+                    },
+                    "uuid": "53ec11f7-d074-47a6-83c5-5df4efa16e44"
+                }
+            ],
+            "severity": "warning",
+            "type": "duplicate_footprints"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 52.5,
+                        "y": 68.25
+                    },
+                    "uuid": "53ec11f7-d074-47a6-83c5-5df4efa16e44"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        },
+        {
+            "description": "Extra footprint",
+            "items": [
+                {
+                    "description": "Footprint <no reference designator>",
+                    "pos": {
+                        "x": 63.75,
+                        "y": 64.75
+                    },
+                    "uuid": "8b52e404-4607-4682-80e2-871bc2de626d"
+                }
+            ],
+            "severity": "warning",
+            "type": "extra_footprint"
+        }
+    ],
+    "source": "NM27C512_Dumper_Lite.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "comment": "",
+            "description": "Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint C3",
+                    "pos": {
+                        "x": 61.0,
+                        "y": 66.25
+                    },
+                    "uuid": "7bbbca4f-919e-461e-a814-656ddb6a002a"
+                }
+            ],
+            "severity": "warning",
+            "type": "lib_footprint_mismatch"
+        },
+        {
+            "comment": "",
+            "description": "Text height out of range (board setup constraints silk text height min height 0,8000 mm; actual 0,6000 mm)",
+            "excluded": true,
+            "items": [
+                {
+                    "description": "Footprint text of D1 (SMD 5050)",
+                    "pos": {
+                        "x": 70.5,
+                        "y": 92.0
+                    },
+                    "uuid": "b69c1bff-4719-4adc-9b77-0201b82aba93"
+                }
+            ],
+            "severity": "warning",
+            "type": "text_height"
+        }
+    ]
+}

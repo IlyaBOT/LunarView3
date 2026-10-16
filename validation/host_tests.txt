@@ -1,0 +1,24 @@
+test_alias_exact_manufacturer (test_host.ProtocolTests.test_alias_exact_manufacturer) ... ok
+test_all_profile_maps_have_correct_dimensions (test_host.ProtocolTests.test_all_profile_maps_have_correct_dimensions) ... ok
+test_corrupt_read_rejected (test_host.ProtocolTests.test_corrupt_read_rejected) ... ok
+test_crc_known_vector (test_host.ProtocolTests.test_crc_known_vector) ... ok
+test_firmware_error_rejected (test_host.ProtocolTests.test_firmware_error_rejected) ... ok
+test_firmware_hash_matches (test_host.ProtocolTests.test_firmware_hash_matches) ... ok
+test_generic_profile_cannot_program (test_host.ProtocolTests.test_generic_profile_cannot_program) ... ok
+test_handshake_checks_version (test_host.ProtocolTests.test_handshake_checks_version) ... ok
+test_handshake_rejects_stale_profiles (test_host.ProtocolTests.test_handshake_rejects_stale_profiles) ... ok
+test_invalid_image_before_opening_port (test_host.ProtocolTests.test_invalid_image_before_opening_port) ... ok
+test_no_unverified_writes (test_host.ProtocolTests.test_no_unverified_writes) ... ok
+test_read_error_produces_no_file_and_resets (test_host.ProtocolTests.test_read_error_produces_no_file_and_resets) ... ok
+test_read_exact_length_crc_and_partial_serial_reads (test_host.ProtocolTests.test_read_exact_length_crc_and_partial_serial_reads) ... ok
+test_safe_firmware_lock_before_any_voltage_command (test_host.ProtocolTests.test_safe_firmware_lock_before_any_voltage_command) ... ok
+test_timeout_and_keepalive (test_host.ProtocolTests.test_timeout_and_keepalive) ... ok
+test_unsupported_write_never_opens_port (test_host.ProtocolTests.test_unsupported_write_never_opens_port) ... ok
+test_verify_frame_offsets_lengths_and_crc (test_host.ProtocolTests.test_verify_frame_offsets_lengths_and_crc) ... ok
+test_write_requires_final_verification_pass (test_host.ProtocolTests.test_write_requires_final_verification_pass) ... ok
+test_wrong_ack_rejected (test_host.ProtocolTests.test_wrong_ack_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.248s
+
+OK

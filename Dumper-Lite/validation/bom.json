@@ -1,0 +1,541 @@
+[
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "J1",
+    "value": "USB Micro-B",
+    "symbol": "Connector:USB_B_Micro",
+    "footprint": "Connector_USB:USB_Micro-B_Molex-105017-0001",
+    "nets": {
+      "1": "+5V",
+      "2": "USB_D-",
+      "3": "USB_D+",
+      "4": null,
+      "5": "GND",
+      "SH": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "U4",
+    "value": "CH340C",
+    "symbol": "ProjectSymbols:CH340C_WCH",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "1": "GND",
+      "2": "UART_RX",
+      "3": "UART_TX",
+      "4": "CH_V3",
+      "5": "USB_D+",
+      "6": "USB_D-",
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": "DTR#",
+      "14": null,
+      "15": "GND",
+      "16": "+5V"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C1",
+    "value": "10uF / 10V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C2",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C3",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "CH_V3",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "U1",
+    "value": "ATmega328P-AU",
+    "symbol": "MCU_Microchip_ATmega:ATmega328P-A",
+    "footprint": "Package_QFP:TQFP-32_7x7mm_P0.8mm",
+    "nets": {
+      "1": null,
+      "2": "ROM_D6",
+      "3": "GND",
+      "4": "+5V",
+      "5": "GND",
+      "6": "+5V",
+      "7": "XTAL1",
+      "8": "XTAL2",
+      "9": "ROM_D7",
+      "10": "ROM_CE#",
+      "11": "ROM_OE#",
+      "12": "STATUS_RED",
+      "13": "STATUS_GREEN",
+      "14": "ADDR_LATCH",
+      "15": "ADDR_SER",
+      "16": "ISP_MISO",
+      "17": "ADDR_SCK",
+      "18": "+5V",
+      "19": null,
+      "20": "AREF",
+      "21": "GND",
+      "22": null,
+      "23": "ROM_D0",
+      "24": "ROM_D1",
+      "25": "ROM_D2",
+      "26": "ROM_D3",
+      "27": "ROM_D4",
+      "28": "ROM_D5",
+      "29": "RESET",
+      "30": "UART_RX",
+      "31": "UART_TX",
+      "32": "STATUS_BLUE"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C4",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C5",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C6",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C10",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "AREF",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "J2",
+    "value": "AVR ISP",
+    "symbol": "Connector:AVR-ISP-6",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "ISP_MISO",
+      "2": "+5V",
+      "3": "ADDR_SCK",
+      "4": "ADDR_SER",
+      "5": "RESET",
+      "6": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "Y1",
+    "value": "16MHz / CL ~18pF",
+    "symbol": "Device:Crystal",
+    "footprint": "Crystal:Crystal_HC49-4H_Vertical",
+    "nets": {
+      "1": "XTAL1",
+      "2": "XTAL2"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C11",
+    "value": "22pF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "XTAL1",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C12",
+    "value": "22pF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "XTAL2",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R1",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "RESET"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "SW1",
+    "value": "RESET",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+    "nets": {
+      "1": "RESET",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "D4",
+    "value": "BAT54WS",
+    "symbol": "Device:D_Schottky",
+    "footprint": "Diode_SMD:D_SOD-323",
+    "nets": {
+      "1": "+5V",
+      "2": "RESET"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C13",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "DTR#",
+      "2": "RESET"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "U2",
+    "value": "74HC595D",
+    "symbol": "74xx:74HC595",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "8": "GND",
+      "10": "+5V",
+      "11": "ADDR_SCK",
+      "12": "ADDR_LATCH",
+      "13": "GND",
+      "14": "ADDR_SER",
+      "16": "+5V",
+      "9": "ADDR_CASCADE",
+      "15": "A0",
+      "1": "A1",
+      "2": "A2",
+      "3": "A3",
+      "4": "A4",
+      "5": "A5",
+      "6": "A6",
+      "7": "A7"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C7",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "U3",
+    "value": "74HC595D",
+    "symbol": "74xx:74HC595",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "8": "GND",
+      "10": "+5V",
+      "11": "ADDR_SCK",
+      "12": "ADDR_LATCH",
+      "13": "GND",
+      "14": "ADDR_CASCADE",
+      "16": "+5V",
+      "9": null,
+      "15": "A8",
+      "1": "A9",
+      "2": "A10",
+      "3": "A11",
+      "4": "A12",
+      "5": "A13",
+      "6": "A14",
+      "7": "A15"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C8",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R4",
+    "value": "10k LATCH",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "ADDR_LATCH",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R2",
+    "value": "10k CE",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "ROM_CE#"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R3",
+    "value": "10k OE",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "ROM_OE#"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "U5",
+    "value": "NM27C512Q SOCKET",
+    "symbol": "Memory_EPROM:27C512",
+    "footprint": "Package_DIP:DIP-28_W15.24mm_Socket_LongPads",
+    "nets": {
+      "1": "A15",
+      "2": "A12",
+      "3": "A7",
+      "4": "A6",
+      "5": "A5",
+      "6": "A4",
+      "7": "A3",
+      "8": "A2",
+      "9": "A1",
+      "10": "A0",
+      "11": "ROM_D0",
+      "12": "ROM_D1",
+      "13": "ROM_D2",
+      "14": "GND",
+      "15": "ROM_D3",
+      "16": "ROM_D4",
+      "17": "ROM_D5",
+      "18": "ROM_D6",
+      "19": "ROM_D7",
+      "20": "ROM_CE#",
+      "21": "A10",
+      "22": "ROM_OE#",
+      "23": "A11",
+      "24": "A9",
+      "25": "A8",
+      "26": "A13",
+      "27": "A14",
+      "28": "+5V"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "C9",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R8",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_RX",
+      "2": "UART_RX_LED_B"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "Q1",
+    "value": "MMBT3906",
+    "symbol": "Transistor_BJT:MMBT3906",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "UART_RX_LED_B",
+      "2": "+5V",
+      "3": "UART_RX_LED_C"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R10",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_RX_LED_C",
+      "2": "UART_RX_LED_A"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "D2",
+    "value": "RX BLUE",
+    "symbol": "Device:LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "UART_RX_LED_A"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R9",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_TX",
+      "2": "UART_TX_LED_B"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "Q2",
+    "value": "MMBT3906",
+    "symbol": "Transistor_BJT:MMBT3906",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "UART_TX_LED_B",
+      "2": "+5V",
+      "3": "UART_TX_LED_C"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R11",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_TX_LED_C",
+      "2": "UART_TX_LED_A"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "D3",
+    "value": "TX ORANGE",
+    "symbol": "Device:LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "UART_TX_LED_A"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R5",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STATUS_RED",
+      "2": "RGB_R_K"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R6",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STATUS_GREEN",
+      "2": "RGB_G_K"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "R7",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STATUS_BLUE",
+      "2": "RGB_B_K"
+    }
+  },
+  {
+    "sheet": "NM27C512_Dumper_Lite.kicad_sch",
+    "ref": "D1",
+    "value": "RGB CA / 5050 OR THT5",
+    "symbol": "ProjectSymbols:RGB_CA_DualMount",
+    "footprint": "ProjectFootprints:RGB_CA_5050_or_THT5",
+    "nets": {
+      "1": "RGB_R_K",
+      "2": "+5V",
+      "3": "RGB_G_K",
+      "4": "RGB_B_K"
+    }
+  }
+]

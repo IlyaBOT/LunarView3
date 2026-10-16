@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-12",
+  "name": "Lunar Writer",
+  "revision": 1,
+  "erc_violations": 0,
+  "drc_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "supply_pinout_audited": true,
+  "through_hole_mask_openings_audited": true,
+  "physical_programming_verified": false,
+  "default_write_locked": true,
+  "files": {
+    "Lunar_Writer.kicad_pcb": "d253af08223ebcff063729b3b6d33a4661379bda4b0b7102b6fe860c1cdd8f51",
+    "Lunar_Writer.kicad_sch": "0525e1e363a20d3c1d2101cf21ececc3cfd05274133da63a11525cfd8cdd5797",
+    "BOM.csv": "b3a92861f46e3ffacf1d02e150fce841ee20ec0b2a3ea4519968941386c398ed",
+    "production\\Lunar_Writer-B_Cu.gbl": "92cb3633995209f2f10bb60f413228271f1fd9b23e6f88f3924c0a351824650c",
+    "production\\Lunar_Writer-B_Mask.gbs": "ea4e5b0d360b5504bee6d8e7d4ba7ec1326f47797299d76aa7b11376902da847",
+    "production\\Lunar_Writer-B_Silkscreen.gbo": "42eac93fdfbc8f25899e7eefb92ab49521f8509041959fee360197ac33aeff35",
+    "production\\Lunar_Writer-drill.rpt": "733967b17056a0e748768019d49cbb0c2ebc418e4af1acfe8d5ccf274dc47776",
+    "production\\Lunar_Writer-Edge_Cuts.gm1": "dcf17a1721163f08602bdbdb63d897901502fbda483ba4ad15bd45dbe57b3c76",
+    "production\\Lunar_Writer-F_Cu.gtl": "f589b584fa59a1dd4e7a54544b8bb46bd0434a3104e921e6a387cc051de79772",
+    "production\\Lunar_Writer-F_Mask.gts": "ddd6c26c9ebeea5e3afb478e83469ff52baf477e12de84d3e0db5d4340001fd3",
+    "production\\Lunar_Writer-F_Silkscreen.gto": "c742c8d1d0be47e6e1974fc370fb7650561a97e0df74e59e6aca1c26203e3551",
+    "production\\Lunar_Writer-job.gbrjob": "5e424c411b2ad3e9da57d64c8f677eb09fa424cef63cde09d1b72f582ed58976",
+    "production\\Lunar_Writer-NPTH-drl_map.pdf": "0f971037a30b6af6923eab6763e46b65efa8f856b894ecbef31370c15971d651",
+    "production\\Lunar_Writer-NPTH.drl": "0e43b608b3b09a993dc848a7f83ecf6f261739d65a84b37d732bcd813596e5c6",
+    "production\\Lunar_Writer-PTH-drl_map.pdf": "aa68b24865a121c372ef32514b517afd8ecc713024c78323e1b15501cba049d2",
+    "production\\Lunar_Writer-PTH.drl": "569219177871e13d3a3e64c7b8642e299d07928048a58efb92254a623831392e",
+    "production\\Lunar_Writer_PCB.pdf": "88e8c7ac1b4dfdf2ca6fc37145de9f2557d9d558e3f5a8151a193325f8de732b"
+  }
+}

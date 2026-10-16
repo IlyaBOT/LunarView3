@@ -1,0 +1,9 @@
+﻿Reference,Value,Footprint,Side
+J1,DIP28 male / bottom,ProjectFootprints:DIP28_Male_RoundPins_Bottom,bottom
+J2,KR573RF5 socket DIP24,Package_DIP:DIP-24_W15.24mm_Socket_LongPads,top
+U1,SN74HCT245PW,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,bottom
+C1,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,bottom
+C2,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,bottom
+C3,1uF / 10V,Capacitor_SMD:C_0603_1608Metric,bottom
+RN1,4x47k CAY16-473J4LF,Resistor_SMD:R_Array_Convex_4x0603,bottom
+RN2,4x47k CAY16-473J4LF,Resistor_SMD:R_Array_Convex_4x0603,bottom

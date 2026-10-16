@@ -1,0 +1,1024 @@
+{
+  "schema_version": 1,
+  "hardware_revision": "A",
+  "profiles": [
+    {
+      "name": "NM27C512",
+      "aliases": [
+        "NM27C512Q",
+        "NM27C512N"
+      ],
+      "package": "DIP-28 600mil",
+      "adapter": "onboard_U6",
+      "size_bytes": 65536,
+      "data_bits": 8,
+      "address_bits": 16,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": true,
+      "program_vcc": 6.25,
+      "program_vpp": 12.75,
+      "vpp_tolerance": 0.25,
+      "address_pin_map": {
+        "A0": 10,
+        "A1": 9,
+        "A2": 8,
+        "A3": 7,
+        "A4": 6,
+        "A5": 5,
+        "A6": 4,
+        "A7": 3,
+        "A8": 25,
+        "A9": 24,
+        "A10": 21,
+        "A11": 23,
+        "A12": 2,
+        "A13": 26,
+        "A14": 27,
+        "A15": 1
+      },
+      "data_pin_map": {
+        "D0": 11,
+        "D1": 12,
+        "D2": 13,
+        "D3": 15,
+        "D4": 16,
+        "D5": 17,
+        "D6": 18,
+        "D7": 19
+      },
+      "ce_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 22,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "inactive": 1
+      },
+      "vpp_pin_role": {
+        "pin": 22,
+        "read": "OE logic"
+      },
+      "program_pulse_us": 100,
+      "max_program_pulses": 25,
+      "verify_algorithm": "National Fast Algorithm: verify after every pulse at VCC=6.25V / OE-VPP=VIL; final whole-image compare at VCC=5V",
+      "power_sequence": [
+        "inactive controls and input data",
+        "arm internal HV with relay READ",
+        "test VPP_SW with socket isolated",
+        "VPP off and discharge verified",
+        "relay PROGRAM; check 6.25V",
+        "for each byte: enable VPP; drive data; CE low 100us; CE high; input data; VPP off; discharge; verify byte",
+        "VPP off; internal HV off; relay READ; compare all bytes at 5V"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/National%20Semiconductor/Memory%20Components/National%20NM27C512.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": true,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Source: National TL/D/10834 February 1994, pages 2,5,6,7.",
+        "Default firmware WRITE lock requires bench commissioning; algorithm verified does not mean hardware tested.",
+        "Source OCR renders microseconds as ms; original page images explicitly show 100 us.",
+        "Source final verification is 5.0V +/-5%; no universal overprogram pulse is specified."
+      ],
+      "vcc_pin": 28,
+      "gnd_pin": 14,
+      "program_vcc_min": 6.0,
+      "program_vcc_max": 6.5,
+      "program_vpp_min": 12.5,
+      "program_vpp_max": 13.0,
+      "program_vpp_absolute_max": 14.0,
+      "program_temperature_c": [
+        20,
+        30
+      ]
+    },
+    {
+      "name": "27C512",
+      "aliases": [],
+      "package": "DIP-28 600mil",
+      "adapter": "onboard_U6 (read compatibility only)",
+      "size_bytes": 65536,
+      "data_bits": 8,
+      "address_bits": 16,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 10,
+        "A1": 9,
+        "A2": 8,
+        "A3": 7,
+        "A4": 6,
+        "A5": 5,
+        "A6": 4,
+        "A7": 3,
+        "A8": 25,
+        "A9": 24,
+        "A10": 21,
+        "A11": 23,
+        "A12": 2,
+        "A13": 26,
+        "A14": 27,
+        "A15": 1
+      },
+      "data_pin_map": {
+        "D0": 11,
+        "D1": 12,
+        "D2": 13,
+        "D3": 15,
+        "D4": 16,
+        "D5": 17,
+        "D6": 18,
+        "D7": 19
+      },
+      "ce_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 22,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "inactive": 1
+      },
+      "vpp_pin_role": {
+        "pin": 22,
+        "read": "OE logic"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/National%20Semiconductor/Memory%20Components/National%20NM27C512.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Generic compatible read pinout only. WRITE requires an explicit manufacturer profile; use NM27C512 only for a marked National/Fairchild part."
+      ],
+      "vcc_pin": 28,
+      "gnd_pin": 14
+    },
+    {
+      "name": "INTEL2716",
+      "aliases": [
+        "2716"
+      ],
+      "package": "DIP-24",
+      "adapter": "adapter_2716_KR573RF5",
+      "size_bytes": 2048,
+      "data_bits": 8,
+      "address_bits": 11,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 8,
+        "A1": 7,
+        "A2": 6,
+        "A3": 5,
+        "A4": 4,
+        "A5": 3,
+        "A6": 2,
+        "A7": 1,
+        "A8": 23,
+        "A9": 22,
+        "A10": 19
+      },
+      "data_pin_map": {
+        "D0": 9,
+        "D1": 10,
+        "D2": 11,
+        "D3": 13,
+        "D4": 14,
+        "D5": 15,
+        "D6": 16,
+        "D7": 17
+      },
+      "ce_role": {
+        "pin": 18,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 20,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 18,
+        "note": "manufacturer-specific; write disabled"
+      },
+      "vpp_pin_role": {
+        "pin": 21,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Intel/Memory%20Components/Intel%202716.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Read mode and physical pinout verified against this Intel datasheet. Exact write algorithm is not implemented; WRITE disabled."
+      ],
+      "vcc_pin": 24,
+      "gnd_pin": 12
+    },
+    {
+      "name": "INTEL2732",
+      "aliases": [
+        "2732"
+      ],
+      "package": "DIP-24",
+      "adapter": "adapter_2716_KR573RF5",
+      "size_bytes": 4096,
+      "data_bits": 8,
+      "address_bits": 12,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 8,
+        "A1": 7,
+        "A2": 6,
+        "A3": 5,
+        "A4": 4,
+        "A5": 3,
+        "A6": 2,
+        "A7": 1,
+        "A8": 23,
+        "A9": 22,
+        "A10": 19,
+        "A11": 21
+      },
+      "data_pin_map": {
+        "D0": 9,
+        "D1": 10,
+        "D2": 11,
+        "D3": 13,
+        "D4": 14,
+        "D5": 15,
+        "D6": 16,
+        "D7": 17
+      },
+      "ce_role": {
+        "pin": 18,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 20,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 18,
+        "note": "manufacturer-specific; write disabled"
+      },
+      "vpp_pin_role": {
+        "pin": 20,
+        "read": "OE logic"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Intel/Memory%20Components/Intel%202732.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Read mode and physical pinout verified against this Intel datasheet. Exact write algorithm is not implemented; WRITE disabled."
+      ],
+      "vcc_pin": 24,
+      "gnd_pin": 12
+    },
+    {
+      "name": "INTEL2764",
+      "aliases": [
+        "2764"
+      ],
+      "package": "DIP-28",
+      "adapter": "adapter_28pin_27xx",
+      "size_bytes": 8192,
+      "data_bits": 8,
+      "address_bits": 13,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 10,
+        "A1": 9,
+        "A2": 8,
+        "A3": 7,
+        "A4": 6,
+        "A5": 5,
+        "A6": 4,
+        "A7": 3,
+        "A8": 25,
+        "A9": 24,
+        "A10": 21,
+        "A11": 23,
+        "A12": 2
+      },
+      "data_pin_map": {
+        "D0": 11,
+        "D1": 12,
+        "D2": 13,
+        "D3": 15,
+        "D4": 16,
+        "D5": 17,
+        "D6": 18,
+        "D7": 19
+      },
+      "ce_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 22,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 27,
+        "net": "TARGET_PGM#",
+        "inactive": 1
+      },
+      "vpp_pin_role": {
+        "pin": 1,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Intel/Memory%20Components/Intel%202764.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Read mode and physical pinout verified against this Intel datasheet. Exact write algorithm is not implemented; WRITE disabled."
+      ],
+      "vcc_pin": 28,
+      "gnd_pin": 14,
+      "unused_pins": {
+        "26": "NC"
+      }
+    },
+    {
+      "name": "INTEL27128A",
+      "aliases": [
+        "27128A",
+        "27128"
+      ],
+      "package": "DIP-28",
+      "adapter": "adapter_28pin_27xx",
+      "size_bytes": 16384,
+      "data_bits": 8,
+      "address_bits": 14,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 10,
+        "A1": 9,
+        "A2": 8,
+        "A3": 7,
+        "A4": 6,
+        "A5": 5,
+        "A6": 4,
+        "A7": 3,
+        "A8": 25,
+        "A9": 24,
+        "A10": 21,
+        "A11": 23,
+        "A12": 2,
+        "A13": 26
+      },
+      "data_pin_map": {
+        "D0": 11,
+        "D1": 12,
+        "D2": 13,
+        "D3": 15,
+        "D4": 16,
+        "D5": 17,
+        "D6": 18,
+        "D7": 19
+      },
+      "ce_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 22,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 27,
+        "net": "TARGET_PGM#",
+        "inactive": 1
+      },
+      "vpp_pin_role": {
+        "pin": 1,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Intel/Memory%20Components/Intel%2027128A.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Read mode and physical pinout verified against this Intel datasheet. Exact write algorithm is not implemented; WRITE disabled."
+      ],
+      "vcc_pin": 28,
+      "gnd_pin": 14
+    },
+    {
+      "name": "INTEL27256",
+      "aliases": [
+        "27256"
+      ],
+      "package": "DIP-28",
+      "adapter": "adapter_28pin_27xx",
+      "size_bytes": 32768,
+      "data_bits": 8,
+      "address_bits": 15,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 10,
+        "A1": 9,
+        "A2": 8,
+        "A3": 7,
+        "A4": 6,
+        "A5": 5,
+        "A6": 4,
+        "A7": 3,
+        "A8": 25,
+        "A9": 24,
+        "A10": 21,
+        "A11": 23,
+        "A12": 2,
+        "A13": 26,
+        "A14": 27
+      },
+      "data_pin_map": {
+        "D0": 11,
+        "D1": 12,
+        "D2": 13,
+        "D3": 15,
+        "D4": 16,
+        "D5": 17,
+        "D6": 18,
+        "D7": 19
+      },
+      "ce_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 22,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 20,
+        "net": "TARGET_CE_PGM#",
+        "inactive": 1
+      },
+      "vpp_pin_role": {
+        "pin": 1,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/Intel/Memory%20Components/Intel%2027256.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Read mode and physical pinout verified against this Intel datasheet. Exact write algorithm is not implemented; WRITE disabled."
+      ],
+      "vcc_pin": 28,
+      "gnd_pin": 14
+    },
+    {
+      "name": "KR573RF5",
+      "aliases": [
+        "K573RF5",
+        "KR573RF5",
+        "КР573РФ5",
+        "К573РФ5"
+      ],
+      "package": "DIP-24",
+      "adapter": "adapter_2716_KR573RF5",
+      "size_bytes": 2048,
+      "data_bits": 8,
+      "address_bits": 11,
+      "read_supported": false,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {},
+      "data_pin_map": {},
+      "ce_role": null,
+      "oe_role": null,
+      "pgm_role": null,
+      "vpp_pin_role": null,
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [],
+      "pinout_verified": false,
+      "read_profile_verified": false,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Requested 2KiB x8 / A0-A10 profile is present but READ and WRITE are quarantined. No Intel pinout is silently substituted for KR573RF5."
+      ],
+      "expected_programming_vpp": 25.0,
+      "verification_pending": "Original manufacturer pinout/read specification and algorithm have not been located."
+    },
+    {
+      "name": "NM27C010",
+      "aliases": [
+        "27C010"
+      ],
+      "package": "DIP-32",
+      "adapter": "adapter_32pin_JEDEC",
+      "size_bytes": 131072,
+      "data_bits": 8,
+      "address_bits": 17,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 12,
+        "A1": 11,
+        "A2": 10,
+        "A3": 9,
+        "A4": 8,
+        "A5": 7,
+        "A6": 6,
+        "A7": 5,
+        "A8": 27,
+        "A9": 26,
+        "A10": 23,
+        "A11": 25,
+        "A12": 4,
+        "A13": 28,
+        "A14": 29,
+        "A15": 3,
+        "A16": 2
+      },
+      "data_pin_map": {
+        "D0": 13,
+        "D1": 14,
+        "D2": 15,
+        "D3": 17,
+        "D4": 18,
+        "D5": 19,
+        "D6": 20,
+        "D7": 21
+      },
+      "ce_role": {
+        "pin": 22,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 24,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 31,
+        "note": "National package comparison only; programming disabled"
+      },
+      "vpp_pin_role": {
+        "pin": 1,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://datasheets.pl/elementy_czynne/IC/NM/NM27C010-2.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Pinout and 5V read mode verified against the exact National/Fairchild datasheet. VPP pin1 tied to TARGET_VCC for READ; WRITE disabled."
+      ],
+      "vcc_pin": 32,
+      "gnd_pin": 16,
+      "unused_pins": {
+        "30": "XX / do not connect on read adapter"
+      }
+    },
+    {
+      "name": "NM27C020",
+      "aliases": [
+        "27C020"
+      ],
+      "package": "DIP-32",
+      "adapter": "adapter_32pin_JEDEC",
+      "size_bytes": 262144,
+      "data_bits": 8,
+      "address_bits": 18,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 12,
+        "A1": 11,
+        "A2": 10,
+        "A3": 9,
+        "A4": 8,
+        "A5": 7,
+        "A6": 6,
+        "A7": 5,
+        "A8": 27,
+        "A9": 26,
+        "A10": 23,
+        "A11": 25,
+        "A12": 4,
+        "A13": 28,
+        "A14": 29,
+        "A15": 3,
+        "A16": 2,
+        "A17": 30
+      },
+      "data_pin_map": {
+        "D0": 13,
+        "D1": 14,
+        "D2": 15,
+        "D3": 17,
+        "D4": 18,
+        "D5": 19,
+        "D6": 20,
+        "D7": 21
+      },
+      "ce_role": {
+        "pin": 22,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 24,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 31,
+        "note": "National package comparison only; programming disabled"
+      },
+      "vpp_pin_role": {
+        "pin": 1,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://www.pselectronic.cz/pdf/1125/11250125.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Pinout and 5V read mode verified against the exact National/Fairchild datasheet. VPP pin1 tied to TARGET_VCC for READ; WRITE disabled."
+      ],
+      "vcc_pin": 32,
+      "gnd_pin": 16
+    },
+    {
+      "name": "NM27C040",
+      "aliases": [
+        "27C040"
+      ],
+      "package": "DIP-32",
+      "adapter": "adapter_32pin_JEDEC",
+      "size_bytes": 524288,
+      "data_bits": 8,
+      "address_bits": 19,
+      "read_supported": true,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 12,
+        "A1": 11,
+        "A2": 10,
+        "A3": 9,
+        "A4": 8,
+        "A5": 7,
+        "A6": 6,
+        "A7": 5,
+        "A8": 27,
+        "A9": 26,
+        "A10": 23,
+        "A11": 25,
+        "A12": 4,
+        "A13": 28,
+        "A14": 29,
+        "A15": 3,
+        "A16": 2,
+        "A17": 30,
+        "A18": 31
+      },
+      "data_pin_map": {
+        "D0": 13,
+        "D1": 14,
+        "D2": 15,
+        "D3": 17,
+        "D4": 18,
+        "D5": 19,
+        "D6": 20,
+        "D7": 21
+      },
+      "ce_role": {
+        "pin": 22,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 24,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 22,
+        "note": "National package comparison only; programming disabled"
+      },
+      "vpp_pin_role": {
+        "pin": 1,
+        "read": "tie to TARGET_VCC (+5V)"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://docs.rs-online.com/a680/0900766b80025540.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": true,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Pinout and 5V read mode verified against the exact National/Fairchild datasheet. VPP pin1 tied to TARGET_VCC for READ; WRITE disabled."
+      ],
+      "vcc_pin": 32,
+      "gnd_pin": 16
+    },
+    {
+      "name": "NM27C080",
+      "aliases": [
+        "27C080"
+      ],
+      "package": "DIP-32",
+      "adapter": "adapter_32pin_JEDEC",
+      "size_bytes": 1048576,
+      "data_bits": 8,
+      "address_bits": 20,
+      "read_supported": false,
+      "read_vcc": 5.0,
+      "read_vpp": 5.0,
+      "program_supported": false,
+      "program_vcc": null,
+      "program_vpp": null,
+      "vpp_tolerance": null,
+      "address_pin_map": {
+        "A0": 12,
+        "A1": 11,
+        "A2": 10,
+        "A3": 9,
+        "A4": 8,
+        "A5": 7,
+        "A6": 6,
+        "A7": 5,
+        "A8": 27,
+        "A9": 26,
+        "A10": 23,
+        "A11": 25,
+        "A12": 4,
+        "A13": 28,
+        "A14": 29,
+        "A15": 3,
+        "A16": 2,
+        "A17": 30,
+        "A18": 31,
+        "A19": 1
+      },
+      "data_pin_map": {
+        "D0": 13,
+        "D1": 14,
+        "D2": 15,
+        "D3": 17,
+        "D4": 18,
+        "D5": 19,
+        "D6": 20,
+        "D7": 21
+      },
+      "ce_role": {
+        "pin": 22,
+        "net": "TARGET_CE_PGM#",
+        "read_active": 0
+      },
+      "oe_role": {
+        "pin": 24,
+        "net": "TARGET_OE#",
+        "read_active": 0
+      },
+      "pgm_role": {
+        "pin": 22,
+        "note": "National package comparison only; programming disabled"
+      },
+      "vpp_pin_role": {
+        "pin": 24,
+        "read": "OE logic"
+      },
+      "program_pulse_us": null,
+      "max_program_pulses": null,
+      "verify_algorithm": null,
+      "power_sequence": [
+        "USB logic first",
+        "controls inactive",
+        "VPP off",
+        "READ relay"
+      ],
+      "sources": [
+        "https://deramp.com/downloads/mfe_archive/050-Component%20Specifications/National%20Semiconductor/Memory%20Components/National%20NM27C512.pdf"
+      ],
+      "pinout_verified": true,
+      "read_profile_verified": false,
+      "program_algorithm_verified": false,
+      "hardware_commissioned": false,
+      "read_access_delay_us": 10,
+      "notes": [
+        "Package roles verified in NM27C512 family comparison on page 2. Individual read operating limits/algorithm require an exact device datasheet; commands disabled."
+      ],
+      "vcc_pin": 32,
+      "gnd_pin": 16
+    }
+  ],
+  "unsupported": {
+    "2708": "Requires +12V and -5V in addition to +5V even for read; unsupported power architecture.",
+    "27C160": "16-bit data bus; Rev A is 8-bit only."
+  }
+}

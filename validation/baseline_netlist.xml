@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\ATmega_EPROM-Dumper\baseline_readonly\NM27C512_Dumper.kicad_sch</source>
+    <date>2026-10-06T15:26:20</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>NM27C512 Dumper - read-only baseline</title>
+        <company/>
+        <rev>A</rev>
+        <date>2026-10-06</date>
+        <source>NM27C512_Dumper.kicad_sch</source>
+        <comment number="1" value="5 V ONLY / NO VPP / no PCB layout"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/">
+      <title_block>
+        <title>NM27C512 Dumper - read-only baseline</title>
+        <company/>
+        <rev>A</rev>
+        <date>2026-10-06</date>
+        <source>controller.kicad_sch</source>
+        <comment number="1" value="5 V ONLY / NO VPP / no PCB layout"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/">
+      <title_block>
+        <title>NM27C512 Dumper - read-only baseline</title>
+        <company/>
+        <rev>A</rev>
+        <date>2026-10-06</date>
+        <source>address_target.kicad_sch</source>
+        <comment number="1" value="5 V ONLY / NO VPP / no PCB layout"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10uF / 10V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>937f95c0-d553-5bae-8e10-a1b92dff22f8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>d9192f4c-a17f-55a4-8e07-cea6dd0c41f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>fc5ec60e-a0f0-5c53-8f1e-ed8887b121e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>76cfbaab-e592-59fc-8363-05a540a24042</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>e330e533-4bb6-56c8-a76a-375081c10d93</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>82a5ee19-69ea-5416-aba6-adbbe0a72d65</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>4d98e7a1-c276-536f-8e1a-aa643702c698</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>2cf93bb7-7ed3-500b-ae3f-2fa44ed370c9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>22pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>b8df2101-a726-54b9-a0ef-29dcc789d00a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF auto-reset</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>c92f773b-3a71-5740-9b69-25e7474a3a82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>500mA hold</value>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="Footprint">Fuse:Fuse_1812_4532Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="resettable fuse PTC PPTC polyfuse polyswitch"/>
+      <property name="ki_fp_filters" value="*polyfuse* *PTC*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>485cfa66-97fd-51a2-b4d9-021f815d0d17</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>USB Micro-B</value>
+      <footprint>Connector_USB:USB_Micro-B_Molex-105017-0001</footprint>
+      <fields>
+        <field name="Footprint">Connector_USB:USB_Micro-B_Molex-105017-0001</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="connector USB micro"/>
+      <property name="ki_fp_filters" value="USB*Micro*B*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>fa67ae70-d450-5bea-884b-07aa572841fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="SH"/>
+            <pin num="5"/>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>AVR ISP</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector" part="AVR-ISP-6" description="Atmel 6-pin ISP connector"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="AVR ISP Connector"/>
+      <property name="ki_fp_filters" value="IDC?Header*2x03* Pin?Header*2x03*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>c9612a48-b910-59c3-8e79-d0639b11f9ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="1"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>UART (MCU RX/TX)</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>8651cff8-f020-5484-87dc-a1512d77bc6b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>f043e758-1921-5ee3-9753-131e9a849a04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>d49154af-aa65-5345-9836-a64cd77402e2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>1c2f005a-682f-5abb-aad0-7ec273aa6070</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="SW1">
+      <value>RESET</value>
+      <footprint>Button_Switch_THT:SW_PUSH_6mm</footprint>
+      <fields>
+        <field name="Footprint">Button_Switch_THT:SW_PUSH_6mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Switch" part="SW_Push" description="Push button switch, generic, two pins"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="switch normally-open pushbutton push-button"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>bbec6d78-9cb3-557e-8999-6fb5ffc350ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>ATmega328P-AU</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega328P-A" description="20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="AVR 8bit Microcontroller MegaAVR PicoPower"/>
+      <property name="ki_fp_filters" value="TQFP*7x7mm*P0.8mm*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>97db8fb1-3521-5b50-a52e-b4821d2b07db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="20"/>
+            <pin num="19"/>
+            <pin num="22"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="21"/>
+            <pin num="18"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>CH340C</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ProjectSymbols" part="CH340C_WCH" description="USB serial converter, crystal-less, UART, SOIC-16"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="USB UART Serial Converter Interface"/>
+      <property name="ki_fp_filters" value="SOIC*3.9x9.9mm*P1.27mm*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>f9e11cca-5146-59d9-acf3-248765d2a6ed</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="15"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="16"/>
+            <pin num="4"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Y1">
+      <value>16MHz, CL ~18pF</value>
+      <footprint>Crystal:Crystal_HC49-4H_Vertical</footprint>
+      <fields>
+        <field name="Footprint">Crystal:Crystal_HC49-4H_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="Crystal" description="Two pin crystal"/>
+      <property name="Sheetname" value="USB / CH340C / ATmega / clock / reset / ISP / UART"/>
+      <property name="Sheetfile" value="controller.kicad_sch"/>
+      <property name="ki_keywords" value="quartz ceramic resonator oscillator"/>
+      <property name="ki_fp_filters" value="Crystal*"/>
+      <sheetpath names="/USB / CH340C / ATmega / clock / reset / ISP / UART/" tstamps="/d95f7c72-6223-5283-8459-521084a8bbed/"/>
+      <tstamps>486983fc-b540-54af-9956-452066009424</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>a95a9a1f-9764-59a4-a51b-92d503b9b622</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>6553f5de-5f58-5d26-8c79-fe3ce316c910</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>777e29d9-fa13-5e28-b26c-4a4661e21442</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>POWER GREEN</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <property name="ki_fp_filters" value="LED* LED_SMD:* LED_THT:*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>ff1eaad1-12ed-5d81-9c24-e5b3c6f8181c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k CE pull-up</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>67bbdb16-1892-502d-9a66-900cd2b288b7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k OE pull-up</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>932d9bed-e83e-56f6-a5eb-a4cc78824aab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>4b7f6a65-f540-58f4-a7ee-e2510c0910f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>10k LATCH pull-down</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>62543259-e745-518b-bdc3-c9b180582234</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>74HC595D</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="HCMOS SR 3State"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>8c396d6d-fe4d-5b95-bf3f-bfa224c19cf1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="15"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>74HC595D</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="74xx" part="74HC595" description="8-bit serial in/out Shift Register 3-State Outputs"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="HCMOS SR 3State"/>
+      <property name="ki_fp_filters" value="DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm* SOIC*5.3x10.2mm*P1.27mm* SOIC*7.5x10.3mm*P1.27mm*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>15df4285-5600-520d-8af5-18729333e428</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="14"/>
+            <pin num="11"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="16"/>
+            <pin num="8"/>
+            <pin num="15"/>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>NM27C512Q SOCKET</value>
+      <footprint>Package_DIP:DIP-28_W15.24mm_Socket_LongPads</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-28_W15.24mm_Socket_LongPads</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Memory_EPROM" part="27C512" description="OTP EPROM 512 KiBit"/>
+      <property name="Sheetname" value="Address generator and NM27C512 direct socket"/>
+      <property name="Sheetfile" value="address_target.kicad_sch"/>
+      <property name="ki_keywords" value="OTP EPROM 512KiBit"/>
+      <property name="ki_fp_filters" value="DIP*W15.24mm*"/>
+      <sheetpath names="/Address generator and NM27C512 direct socket/" tstamps="/c84c06fa-bd62-5c19-b014-ec8350337b5c/"/>
+      <tstamps>d320b5c8-2547-571a-962e-00e9377d61ee</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="10"/>
+            <pin num="9"/>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="25"/>
+            <pin num="24"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="2"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="1"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="28"/>
+            <pin num="14"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="74xx" part="74HC595">
+      <description>8-bit serial in/out Shift Register 3-State Outputs</description>
+      <docs>http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SOIC*5.3x10.2mm*P1.27mm*</fp>
+        <fp>SOIC*7.5x10.3mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/sn74hc595.pdf</field>
+        <field name="Description">8-bit serial in/out Shift Register 3-State Outputs</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="tri_state"/>
+        <pin num="2" name="QC" type="tri_state"/>
+        <pin num="3" name="QD" type="tri_state"/>
+        <pin num="4" name="QE" type="tri_state"/>
+        <pin num="5" name="QF" type="tri_state"/>
+        <pin num="6" name="QG" type="tri_state"/>
+        <pin num="7" name="QH" type="tri_state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="QH'" type="output"/>
+        <pin num="10" name="~{SRCLR}" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="~{OE}" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="tri_state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="AVR-ISP-6">
+      <description>Atmel 6-pin ISP connector</description>
+      <footprints>
+        <fp>IDC?Header*2x03*</fp>
+        <fp>Pin?Header*2x03*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AVR-ISP-6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Atmel 6-pin ISP connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MISO" type="passive"/>
+        <pin num="2" name="VCC" type="passive"/>
+        <pin num="3" name="SCK" type="passive"/>
+        <pin num="4" name="MOSI" type="passive"/>
+        <pin num="5" name="~{RST}" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <description>USB Micro Type B connector</description>
+      <footprints>
+        <fp>USB*Micro*B*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">USB Micro Type B connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="SH" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Two pin crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Light emitting diode</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resettable fuse, polymeric positive temperature coefficient</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega328P-A">
+      <description>20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</docs>
+      <footprints>
+        <fp>TQFP*7x7mm*P0.8mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ATmega328P-A</field>
+        <field name="Footprint">Package_QFP:TQFP-32_7x7mm_P0.8mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf</field>
+        <field name="Description">20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, TQFP-32</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3" type="bidirectional"/>
+        <pin num="2" name="PD4" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="VCC" type="passive"/>
+        <pin num="7" name="XTAL1/PB6" type="bidirectional"/>
+        <pin num="8" name="XTAL2/PB7" type="bidirectional"/>
+        <pin num="9" name="PD5" type="bidirectional"/>
+        <pin num="10" name="PD6" type="bidirectional"/>
+        <pin num="11" name="PD7" type="bidirectional"/>
+        <pin num="12" name="PB0" type="bidirectional"/>
+        <pin num="13" name="PB1" type="bidirectional"/>
+        <pin num="14" name="PB2" type="bidirectional"/>
+        <pin num="15" name="PB3" type="bidirectional"/>
+        <pin num="16" name="PB4" type="bidirectional"/>
+        <pin num="17" name="PB5" type="bidirectional"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="input"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="passive"/>
+        <pin num="22" name="ADC7" type="input"/>
+        <pin num="23" name="PC0" type="bidirectional"/>
+        <pin num="24" name="PC1" type="bidirectional"/>
+        <pin num="25" name="PC2" type="bidirectional"/>
+        <pin num="26" name="PC3" type="bidirectional"/>
+        <pin num="27" name="PC4" type="bidirectional"/>
+        <pin num="28" name="PC5" type="bidirectional"/>
+        <pin num="29" name="~{RESET}/PC6" type="bidirectional"/>
+        <pin num="30" name="PD0" type="bidirectional"/>
+        <pin num="31" name="PD1" type="bidirectional"/>
+        <pin num="32" name="PD2" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EPROM" part="27C512">
+      <description>OTP EPROM 512 KiBit</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf</docs>
+      <footprints>
+        <fp>DIP*W15.24mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">27C512</field>
+        <field name="Footprint">Package_DIP:DIP-28_W15.24mm</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf</field>
+        <field name="Description">OTP EPROM 512 KiBit</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A15" type="input"/>
+        <pin num="2" name="A12" type="input"/>
+        <pin num="3" name="A7" type="input"/>
+        <pin num="4" name="A6" type="input"/>
+        <pin num="5" name="A5" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A3" type="input"/>
+        <pin num="8" name="A2" type="input"/>
+        <pin num="9" name="A1" type="input"/>
+        <pin num="10" name="A0" type="input"/>
+        <pin num="11" name="D0" type="tri_state"/>
+        <pin num="12" name="D1" type="tri_state"/>
+        <pin num="13" name="D2" type="tri_state"/>
+        <pin num="14" name="GND" type="power_in"/>
+        <pin num="15" name="D3" type="tri_state"/>
+        <pin num="16" name="D4" type="tri_state"/>
+        <pin num="17" name="D5" type="tri_state"/>
+        <pin num="18" name="D6" type="tri_state"/>
+        <pin num="19" name="D7" type="tri_state"/>
+        <pin num="20" name="~{CE}" type="input"/>
+        <pin num="21" name="A10" type="input"/>
+        <pin num="22" name="~{OE}" type="input"/>
+        <pin num="23" name="A11" type="input"/>
+        <pin num="24" name="A9" type="input"/>
+        <pin num="25" name="A8" type="input"/>
+        <pin num="26" name="A13" type="input"/>
+        <pin num="27" name="A14" type="input"/>
+        <pin num="28" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectSymbols" part="CH340C_WCH">
+      <description>USB serial converter, crystal-less, UART, SOIC-16</description>
+      <docs>https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF</docs>
+      <footprints>
+        <fp>SOIC*3.9x9.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CH340C_WCH</field>
+        <field name="Footprint">Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF</field>
+        <field name="Description">USB serial converter, crystal-less, UART, SOIC-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="TXD" type="output"/>
+        <pin num="3" name="RXD" type="input"/>
+        <pin num="4" name="V3" type="power_out"/>
+        <pin num="5" name="UD+" type="bidirectional"/>
+        <pin num="6" name="UD-" type="bidirectional"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="~{OUT}/~{DTR2}" type="output"/>
+        <pin num="9" name="~{CTS}" type="input"/>
+        <pin num="10" name="~{DSR}" type="input"/>
+        <pin num="11" name="~{RI}" type="input"/>
+        <pin num="12" name="~{DCD}" type="input"/>
+        <pin num="13" name="~{DTR}" type="output"/>
+        <pin num="14" name="~{RTS}" type="output"/>
+        <pin num="15" name="R232" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Push button switch, generic, two pins</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="74xx">
+      <uri>${KICAD10_SYMBOL_DIR}/74xx.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>${KICAD10_SYMBOL_DIR}/MCU_Microchip_ATmega.kicad_sym</uri>
+    </library>
+    <library logical="Memory_EPROM">
+      <uri>${KICAD10_SYMBOL_DIR}/Memory_EPROM.kicad_sym</uri>
+    </library>
+    <library logical="ProjectSymbols">
+      <uri>${KIPRJMOD}/ProjectSymbols.kicad_sym</uri>
+    </library>
+    <library logical="Switch">
+      <uri>${KICAD10_SYMBOL_DIR}/Switch.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="VCC_2" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="AVCC_18" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VCC_4" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="VCC_6" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="~{SRCLR}_10" pintype="input"/>
+      <node ref="U2" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="~{SRCLR}_10" pintype="input"/>
+      <node ref="U3" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U4" pin="16" pinfunction="VCC_16" pintype="power_in"/>
+      <node ref="U5" pin="28" pinfunction="VCC_28" pintype="power_in"/>
+    </net>
+    <net code="2" name="A0" class="Default">
+      <node ref="U2" pin="15" pinfunction="QA_15" pintype="tri_state"/>
+      <node ref="U5" pin="10" pinfunction="A0_10" pintype="input"/>
+    </net>
+    <net code="3" name="A1" class="Default">
+      <node ref="U2" pin="1" pinfunction="QB_1" pintype="tri_state"/>
+      <node ref="U5" pin="9" pinfunction="A1_9" pintype="input"/>
+    </net>
+    <net code="4" name="A2" class="Default">
+      <node ref="U2" pin="2" pinfunction="QC_2" pintype="tri_state"/>
+      <node ref="U5" pin="8" pinfunction="A2_8" pintype="input"/>
+    </net>
+    <net code="5" name="A3" class="Default">
+      <node ref="U2" pin="3" pinfunction="QD_3" pintype="tri_state"/>
+      <node ref="U5" pin="7" pinfunction="A3_7" pintype="input"/>
+    </net>
+    <net code="6" name="A4" class="Default">
+      <node ref="U2" pin="4" pinfunction="QE_4" pintype="tri_state"/>
+      <node ref="U5" pin="6" pinfunction="A4_6" pintype="input"/>
+    </net>
+    <net code="7" name="A5" class="Default">
+      <node ref="U2" pin="5" pinfunction="QF_5" pintype="tri_state"/>
+      <node ref="U5" pin="5" pinfunction="A5_5" pintype="input"/>
+    </net>
+    <net code="8" name="A6" class="Default">
+      <node ref="U2" pin="6" pinfunction="QG_6" pintype="tri_state"/>
+      <node ref="U5" pin="4" pinfunction="A6_4" pintype="input"/>
+    </net>
+    <net code="9" name="A7" class="Default">
+      <node ref="U2" pin="7" pinfunction="QH_7" pintype="tri_state"/>
+      <node ref="U5" pin="3" pinfunction="A7_3" pintype="input"/>
+    </net>
+    <net code="10" name="A8" class="Default">
+      <node ref="U3" pin="15" pinfunction="QA_15" pintype="tri_state"/>
+      <node ref="U5" pin="25" pinfunction="A8_25" pintype="input"/>
+    </net>
+    <net code="11" name="A9" class="Default">
+      <node ref="U3" pin="1" pinfunction="QB_1" pintype="tri_state"/>
+      <node ref="U5" pin="24" pinfunction="A9_24" pintype="input"/>
+    </net>
+    <net code="12" name="A10" class="Default">
+      <node ref="U3" pin="2" pinfunction="QC_2" pintype="tri_state"/>
+      <node ref="U5" pin="21" pinfunction="A10_21" pintype="input"/>
+    </net>
+    <net code="13" name="A11" class="Default">
+      <node ref="U3" pin="3" pinfunction="QD_3" pintype="tri_state"/>
+      <node ref="U5" pin="23" pinfunction="A11_23" pintype="input"/>
+    </net>
+    <net code="14" name="A12" class="Default">
+      <node ref="U3" pin="4" pinfunction="QE_4" pintype="tri_state"/>
+      <node ref="U5" pin="2" pinfunction="A12_2" pintype="input"/>
+    </net>
+    <net code="15" name="A13" class="Default">
+      <node ref="U3" pin="5" pinfunction="QF_5" pintype="tri_state"/>
+      <node ref="U5" pin="26" pinfunction="A13_26" pintype="input"/>
+    </net>
+    <net code="16" name="A14" class="Default">
+      <node ref="U3" pin="6" pinfunction="QG_6" pintype="tri_state"/>
+      <node ref="U5" pin="27" pinfunction="A14_27" pintype="input"/>
+    </net>
+    <net code="17" name="A15" class="Default">
+      <node ref="U3" pin="7" pinfunction="QH_7" pintype="tri_state"/>
+      <node ref="U5" pin="1" pinfunction="A15_1" pintype="input"/>
+    </net>
+    <net code="18" name="ADDR_LATCH" class="Default">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="PB2_14" pintype="bidirectional"/>
+      <node ref="U2" pin="12" pinfunction="RCLK_12" pintype="input"/>
+      <node ref="U3" pin="12" pinfunction="RCLK_12" pintype="input"/>
+    </net>
+    <net code="19" name="ADDR_SCK" class="Default">
+      <node ref="J2" pin="3" pinfunction="SCK_3" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PB5_17" pintype="bidirectional"/>
+      <node ref="U2" pin="11" pinfunction="SRCLK_11" pintype="input"/>
+      <node ref="U3" pin="11" pinfunction="SRCLK_11" pintype="input"/>
+    </net>
+    <net code="20" name="ADDR_SER" class="Default">
+      <node ref="J2" pin="4" pinfunction="MOSI_4" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="PB3_15" pintype="bidirectional"/>
+      <node ref="U2" pin="14" pinfunction="SER_14" pintype="input"/>
+    </net>
+    <net code="21" name="AREF" class="Default">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="AREF_20" pintype="passive"/>
+    </net>
+    <net code="22" name="CASCADE_1" class="Default">
+      <node ref="U2" pin="9" pinfunction="QH'_9" pintype="output"/>
+      <node ref="U3" pin="14" pinfunction="SER_14" pintype="input"/>
+    </net>
+    <net code="23" name="CH_RX" class="Default">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="RXD_3" pintype="input"/>
+    </net>
+    <net code="24" name="CH_TX" class="Default">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="TXD_2" pintype="output"/>
+    </net>
+    <net code="25" name="CH_V3" class="Default">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="V3_4" pintype="power_out"/>
+    </net>
+    <net code="26" name="DTR#" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="~{DTR}_13" pintype="output"/>
+    </net>
+    <net code="27" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="GND_5" pintype="power_out"/>
+      <node ref="J1" pin="SH" pinfunction="Shield_SH" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="GND_6" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="GND_21" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="GND_5" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="~{OE}_13" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U3" pin="13" pinfunction="~{OE}_13" pintype="input"/>
+      <node ref="U3" pin="8" pinfunction="GND_8" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U4" pin="15" pinfunction="R232_15" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="GND_14" pintype="power_in"/>
+    </net>
+    <net code="28" name="ISP_MISO" class="Default">
+      <node ref="J2" pin="1" pinfunction="MISO_1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="PB4_16" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="POWER_LED_A" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="RESET" class="Default">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="~{RST}_5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="SW1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="29" pinfunction="~{RESET}/PC6_29" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="ROM_CE#" class="Default">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="PD6_10" pintype="bidirectional"/>
+      <node ref="U5" pin="20" pinfunction="~{CE}_20" pintype="input"/>
+    </net>
+    <net code="32" name="ROM_D0" class="Default">
+      <node ref="U1" pin="23" pinfunction="PC0_23" pintype="bidirectional"/>
+      <node ref="U5" pin="11" pinfunction="D0_11" pintype="tri_state"/>
+    </net>
+    <net code="33" name="ROM_D1" class="Default">
+      <node ref="U1" pin="24" pinfunction="PC1_24" pintype="bidirectional"/>
+      <node ref="U5" pin="12" pinfunction="D1_12" pintype="tri_state"/>
+    </net>
+    <net code="34" name="ROM_D2" class="Default">
+      <node ref="U1" pin="25" pinfunction="PC2_25" pintype="bidirectional"/>
+      <node ref="U5" pin="13" pinfunction="D2_13" pintype="tri_state"/>
+    </net>
+    <net code="35" name="ROM_D3" class="Default">
+      <node ref="U1" pin="26" pinfunction="PC3_26" pintype="bidirectional"/>
+      <node ref="U5" pin="15" pinfunction="D3_15" pintype="tri_state"/>
+    </net>
+    <net code="36" name="ROM_D4" class="Default">
+      <node ref="U1" pin="27" pinfunction="PC4_27" pintype="bidirectional"/>
+      <node ref="U5" pin="16" pinfunction="D4_16" pintype="tri_state"/>
+    </net>
+    <net code="37" name="ROM_D5" class="Default">
+      <node ref="U1" pin="28" pinfunction="PC5_28" pintype="bidirectional"/>
+      <node ref="U5" pin="17" pinfunction="D5_17" pintype="tri_state"/>
+    </net>
+    <net code="38" name="ROM_D6" class="Default">
+      <node ref="U1" pin="2" pinfunction="PD4_2" pintype="bidirectional"/>
+      <node ref="U5" pin="18" pinfunction="D6_18" pintype="tri_state"/>
+    </net>
+    <net code="39" name="ROM_D7" class="Default">
+      <node ref="U1" pin="9" pinfunction="PD5_9" pintype="bidirectional"/>
+      <node ref="U5" pin="19" pinfunction="D7_19" pintype="tri_state"/>
+    </net>
+    <net code="40" name="ROM_OE#" class="Default">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="PD7_11" pintype="bidirectional"/>
+      <node ref="U5" pin="22" pinfunction="~{OE}_22" pintype="input"/>
+    </net>
+    <net code="41" name="UART_RX" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="30" pinfunction="PD0_30" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="UART_TX" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="PD1_31" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="USB_D+" class="Default">
+      <node ref="J1" pin="3" pinfunction="D+_3" pintype="bidirectional"/>
+      <node ref="U4" pin="5" pinfunction="UD+_5" pintype="bidirectional"/>
+    </net>
+    <net code="44" name="USB_D-" class="Default">
+      <node ref="J1" pin="2" pinfunction="D-_2" pintype="bidirectional"/>
+      <node ref="U4" pin="6" pinfunction="UD-_6" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="USB_VBUS" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="VBUS_1" pintype="power_out"/>
+    </net>
+    <net code="46" name="XTAL1" class="Default">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="XTAL1/PB6_7" pintype="bidirectional"/>
+      <node ref="Y1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="47" name="XTAL2" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="XTAL2/PB7_8" pintype="bidirectional"/>
+      <node ref="Y1" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="48" name="unconnected-(J1-ID-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="ID_4" pintype="passive+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U1-ADC6-Pad19)" class="Default">
+      <node ref="U1" pin="19" pinfunction="ADC6_19" pintype="input+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U1-ADC7-Pad22)" class="Default">
+      <node ref="U1" pin="22" pinfunction="ADC7_22" pintype="input+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U1-PB0-Pad12)" class="Default">
+      <node ref="U1" pin="12" pinfunction="PB0_12" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U1-PB1-Pad13)" class="Default">
+      <node ref="U1" pin="13" pinfunction="PB1_13" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U1-PD2-Pad32)" class="Default">
+      <node ref="U1" pin="32" pinfunction="PD2_32" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U1-PD3-Pad1)" class="Default">
+      <node ref="U1" pin="1" pinfunction="PD3_1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U3-QH'-Pad9)" class="Default">
+      <node ref="U3" pin="9" pinfunction="QH'_9" pintype="output+no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U4-NC-Pad7)" class="Default">
+      <node ref="U4" pin="7" pinfunction="NC_7" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U4-~{CTS}-Pad9)" class="Default">
+      <node ref="U4" pin="9" pinfunction="~{CTS}_9" pintype="input+no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U4-~{DCD}-Pad12)" class="Default">
+      <node ref="U4" pin="12" pinfunction="~{DCD}_12" pintype="input+no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U4-~{DSR}-Pad10)" class="Default">
+      <node ref="U4" pin="10" pinfunction="~{DSR}_10" pintype="input+no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U4-~{OUT}/~{DTR2}-Pad8)" class="Default">
+      <node ref="U4" pin="8" pinfunction="~{OUT}/~{DTR2}_8" pintype="output+no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U4-~{RI}-Pad11)" class="Default">
+      <node ref="U4" pin="11" pinfunction="~{RI}_11" pintype="input+no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U4-~{RTS}-Pad14)" class="Default">
+      <node ref="U4" pin="14" pinfunction="~{RTS}_14" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

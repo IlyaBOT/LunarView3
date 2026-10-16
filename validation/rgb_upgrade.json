@@ -1,0 +1,30 @@
+[
+  {
+    "board": "NM27C512_Dumper.kicad_pcb",
+    "ref": "D2",
+    "old_at": [
+      171.12,
+      58.758555
+    ],
+    "new_at": [
+      173.12,
+      66.758555
+    ],
+    "other_footprints_preserved": 142,
+    "existing_segments_preserved": 0
+  },
+  {
+    "board": "Dumper-Lite\\NM27C512_Dumper_Lite.kicad_pcb",
+    "ref": "D1",
+    "old_at": [
+      119.0,
+      103.0
+    ],
+    "new_at": [
+      109.0,
+      113.0
+    ],
+    "other_footprints_preserved": 38,
+    "existing_segments_preserved": 0
+  }
+]

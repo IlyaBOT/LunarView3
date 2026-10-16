@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType><TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms><Nullable>enable</Nullable><ImplicitUsings>disable</ImplicitUsings>
+    <ApplicationManifest>app.manifest</ApplicationManifest><AssemblyName>LunarView3</AssemblyName>
+    <RootNamespace>EpromDumper</RootNamespace>
+    <Product>LunarView 3</Product><Title>LunarView 3</Title><Company>IB-WorkShop</Company>
+    <Version>1.2</Version><InformationalVersion>1.2</InformationalVersion>
+    <AssemblyVersion>1.2.0.0</AssemblyVersion><FileVersion>1.2.0.0</FileVersion>
+    <Description>Программа для считывания прошивки со старинных ROM чипов с параллельной шиной при помощи программатора Lunar Writer или дампера Lunar Dumper</Description>
+    <BuildDate Condition="'$(BuildDate)' == ''">$([System.DateTime]::UtcNow.AddHours(3).ToString('dd.MM.yyyy'))</BuildDate>
+  </PropertyGroup>
+  <ItemGroup><PackageReference Include="System.IO.Ports" Version="8.0.0" />
+    <None Update="rom-chips.list" CopyToOutputDirectory="PreserveNewest" />
+    <Compile Remove="Tests\**\*.cs" /><Compile Remove="TestsUI\**\*.cs" />
+    <EmbeddedResource Include="assets\LunarView_logo.png" LogicalName="LunarView3.Logo.png" />
+    <AssemblyAttribute Include="System.Reflection.AssemblyMetadataAttribute">
+      <_Parameter1>BuildDate</_Parameter1><_Parameter2>$(BuildDate)</_Parameter2>
+    </AssemblyAttribute>
+  </ItemGroup>
+</Project>

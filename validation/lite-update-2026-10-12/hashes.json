@@ -1,0 +1,12 @@
+{
+  "firmware/lite/build/dumper_lite.hex": "f65801d7e2240af5784fc572e982e249c374edffe25bbd56dfc19ad010df1722",
+  "firmware/lite/build/dumper_lite.elf": "155e8895672092bef042086337e7b5cdabaf665fba1804e553801a61a98d39ac",
+  "firmware/main.c": "08f7d043b8f8e060deca24540c26fd392a17e6d031dc257a8e819f2ad025b870",
+  "firmware/dumper_safe.hex": "e505af7af6bffbf8ac40ada5dada62708e8a7dcc515013558a460e7b0df77260",
+  "firmware/status_core.h": "be18a984f8d4f67345fb160c35a322e4155358e253c182cad739463884f5ad07",
+  "app-win_forms/release/EpromDumper.exe": "0a28c14963f1b0ec2c3ba313d159fc4c984d92cf163ac80dbcdd787717fd09c7",
+  "app-win_forms/release/EpromDumper.dll": "346d48f66b1af90c557676be569e3a887f66bbe1b2a35b461254836605838646",
+  "app-win_forms/rom-chips.list": "b3fe60aac9ac9b37f88e19121e2a2881ccb43f342b53e2dc633e8c063b4466f4",
+  "app-win_forms/release/rom-chips.list": "b3fe60aac9ac9b37f88e19121e2a2881ccb43f342b53e2dc633e8c063b4466f4",
+  "Dumper-Lite/NM27C512_Dumper_Lite.kicad_pcb": "1147f42970dd9abc639e3f89a14d58c3dbc842d9de7f9c65819ef65f327bd571"
+}

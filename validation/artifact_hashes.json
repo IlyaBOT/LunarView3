@@ -1,0 +1,316 @@
+{
+  "date": "2026-10-06",
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": "Dumper-Lite/validation/PLACEMENT.md",
+      "sha256": "5322fac7a107c3a43eef65e3862d95920ba040c76be2e55850889741503a81c2",
+      "bytes": 4617
+    },
+    {
+      "path": "Dumper-Lite/validation/Placement_Top.png",
+      "sha256": "93395fec04e018c5167b2e8f70b9f5d5efb904aeeb919c0a7c41ceac6bdf2fba",
+      "bytes": 449441
+    },
+    {
+      "path": "Dumper-Lite/validation/drc_placement.json",
+      "sha256": "9ed59217add97eb5c4f902cb38db003a51c756523cf9e6d6895c8bc040a5ec31",
+      "bytes": 108807
+    },
+    {
+      "path": "Dumper-Lite/validation/placement_audit.json",
+      "sha256": "c1a803855ff7f8a75b15756c7b5979a90d76031d14f9a04160ca8754469613cf",
+      "bytes": 152572
+    },
+    {
+      "path": "Dumper-Lite/validation/placement_verification.json",
+      "sha256": "37702639207c97d92065dee998f0f021d331cf8bf3797d266203d1311a57dcf5",
+      "bytes": 10982
+    },
+    {
+      "path": "NM27C512_Dumper.kicad_pcb",
+      "sha256": "bbcc49219370d03a1a4723a7e77a2df126cfc33fb039130369f25c287ea30d4f",
+      "bytes": 566176
+    },
+    {
+      "path": "NM27C512_Dumper.kicad_pro",
+      "sha256": "0268170607ccb4f138ff627904fd9e193fa122c33e32daf9afe2a8c513acc730",
+      "bytes": 17811
+    },
+    {
+      "path": "NM27C512_Dumper.kicad_sch",
+      "sha256": "357aaafe0c1708ad770b31d8e1319cd1781366ae9ab9c3004de3d9e5a1430580",
+      "bytes": 12221
+    },
+    {
+      "path": "ProjectFootprints.pretty/RGB_CA_5050_or_THT5.kicad_mod",
+      "sha256": "62eb137be94cfb3ad0f93dc224a40f713e0959554fa3188c2ccc758849e04b57",
+      "bytes": 5220
+    },
+    {
+      "path": "ProjectSymbols.kicad_sym",
+      "sha256": "a91d5ef249914afdb86336c93f0ef730310e79746e826b984299575ad7ab4422",
+      "bytes": 8470
+    },
+    {
+      "path": "README.md",
+      "sha256": "cd7cfec347b8a66d71fdd6286077dfaa03dbbee63435528501a1c46f533e552d",
+      "bytes": 26409
+    },
+    {
+      "path": "adapter_2716_KR573RF5.kicad_sch",
+      "sha256": "03cef601736f1e258cb41792d55953a595ed3d2a346c0e20335831c719b7b292",
+      "bytes": 6383
+    },
+    {
+      "path": "adapter_28pin_27xx.kicad_sch",
+      "sha256": "1834019564f865c3bc60dec85dc9ce8d199cce4746c995c79d915b3c6b568695",
+      "bytes": 6781
+    },
+    {
+      "path": "adapter_32pin_JEDEC.kicad_sch",
+      "sha256": "230b9d4fb0e14c6d2f5907a0b28ec1cdbdf040bdf51468df9b611e62102b40e3",
+      "bytes": 7616
+    },
+    {
+      "path": "address_target.kicad_sch",
+      "sha256": "105321c5efc07dd9d9cd5de5edc6f804025d64437ea7439b32432d2e76e7bfac",
+      "bytes": 127323
+    },
+    {
+      "path": "baseline_readonly/NM27C512_Dumper.kicad_pro",
+      "sha256": "d79fd41ba7da5599bf4fc464b3d2312eaf3fb2f86373a2e36bb3b469bfa2eb68",
+      "bytes": 963
+    },
+    {
+      "path": "baseline_readonly/NM27C512_Dumper.kicad_sch",
+      "sha256": "2349b0c9589367fafe107da1b9552e4a63ee154a32344844d52c2bdeb38bddab",
+      "bytes": 1964
+    },
+    {
+      "path": "baseline_readonly/ProjectSymbols.kicad_sym",
+      "sha256": "cc0786e37b14370b5ec566331e2c65c9f0a80aee2ce64cba139c519e5409dc24",
+      "bytes": 3900
+    },
+    {
+      "path": "baseline_readonly/address_target.kicad_sch",
+      "sha256": "7269be22db872948e3b1e388823b96b84dab568680498add0aa921f6b4e451be",
+      "bytes": 70812
+    },
+    {
+      "path": "baseline_readonly/controller.kicad_sch",
+      "sha256": "28f9664a2c12369e26d82fe8674810e603ad6d649ac8ec9f4493f93290a55857",
+      "bytes": 99497
+    },
+    {
+      "path": "baseline_readonly/fp-lib-table",
+      "sha256": "e2b2f240fc87383e2ba7386ad42ddbd406b1713a7f9b29d847006bf2724cedc0",
+      "bytes": 32
+    },
+    {
+      "path": "baseline_readonly/sym-lib-table",
+      "sha256": "c4801da23f8ab21beb1a8af82e708a85b08078571143856b2cd78008435ff5cf",
+      "bytes": 175
+    },
+    {
+      "path": "controller.kicad_sch",
+      "sha256": "2fdab994176bd12643137f886881b38812c5d50b783578157da07b1f376767e9",
+      "bytes": 169759
+    },
+    {
+      "path": "data_status.kicad_sch",
+      "sha256": "ae9defe31aa5d9268416148a737c8e4182efb23e6990f55b277b16e8a2f38f31",
+      "bytes": 103776
+    },
+    {
+      "path": "device_profiles.json",
+      "sha256": "8abe590fa20ac2f15e4f5d9ef0124674c63bbbd7aed814accee5469b62cf4665",
+      "bytes": 25558
+    },
+    {
+      "path": "docs/BOM.md",
+      "sha256": "a48f342b73c0e54f70651330cb89dd403bc7b98887c6052515c3cddb6f90ad98",
+      "bytes": 14215
+    },
+    {
+      "path": "docs/RGB_Mounting.md",
+      "sha256": "baf0e61fff6bc497969db719355578e13a28f8c21427ee20c2fd3697e067deb7",
+      "bytes": 7437
+    },
+    {
+      "path": "docs/sources.md",
+      "sha256": "f3fa939dc82123580a4e9ab5216b55f35e841e5c23b51c9d4014a7fcc8f6eb03",
+      "bytes": 5980
+    },
+    {
+      "path": "firmware/build.ps1",
+      "sha256": "d12478b690b361adc59ea3b8701fd7fa93aa5b7ea50f13e6fd0909489f6b5b78",
+      "bytes": 1311
+    },
+    {
+      "path": "firmware/config.h",
+      "sha256": "89a1be29378f231ef9814bd0a087689b68a20d4f7e5558edf4939a26a4b8d3eb",
+      "bytes": 465
+    },
+    {
+      "path": "firmware/dumper_commissioned.hex",
+      "sha256": "29909e6879001ec6e21f1ad61698baf56fd39d31f0a808eb78b78f6e977e6994",
+      "bytes": 15621
+    },
+    {
+      "path": "firmware/dumper_safe.hex",
+      "sha256": "6a6337d2188d99fc1652f4cfe37eb115e8afa0ff74e3ddc73607f2cb2e1d5915",
+      "bytes": 11906
+    },
+    {
+      "path": "firmware/main.c",
+      "sha256": "fbb1e3d99fd6a2f24c76256ae35c513a22f0758132ca911961180cf8c036e042",
+      "bytes": 12148
+    },
+    {
+      "path": "firmware/profiles.h",
+      "sha256": "c36618628941620b98e82616c37add09fc7bb6802421a991720e3b729541e126",
+      "bytes": 1323
+    },
+    {
+      "path": "fp-lib-table",
+      "sha256": "d61d246ce672ba9c3563e6bee0b21e03252170dedc3f8bbebc26cf5af768b883",
+      "bytes": 193
+    },
+    {
+      "path": "programming_power.kicad_sch",
+      "sha256": "208a202d9756111771ef6e9e2db16a6ce19473e9e843afcac1137d9758668b61",
+      "bytes": 119150
+    },
+    {
+      "path": "programming_pulse.kicad_sch",
+      "sha256": "c605669612029e191c3ed3121a0a547716c180a127d84ff75d76ead801399baa",
+      "bytes": 94143
+    },
+    {
+      "path": "sym-lib-table",
+      "sha256": "c4801da23f8ab21beb1a8af82e708a85b08078571143856b2cd78008435ff5cf",
+      "bytes": 175
+    },
+    {
+      "path": "target_interface.kicad_sch",
+      "sha256": "bbf749d3a43034715f57f83411054a5c851e66181976c67a5a2205dff003323d",
+      "bytes": 129235
+    },
+    {
+      "path": "testpoints_safety.kicad_sch",
+      "sha256": "d4320607bde726be462245826e32a876bbe8aefa0ba6e9db95dd1e82efd3ad65",
+      "bytes": 36915
+    },
+    {
+      "path": "tools/apply_lite_placement.py",
+      "sha256": "b232d38bdb39e24d310ecf4a254e738d20c139a704b4b9edf2f4ef8567743034",
+      "bytes": 3341
+    },
+    {
+      "path": "tools/audit_lite.py",
+      "sha256": "6151a7f8fe590ec0626b930f81f9fecd8cedb808f2ab6ef86bd6187cdacaf5d7",
+      "bytes": 6995
+    },
+    {
+      "path": "tools/audit_lite_placement.py",
+      "sha256": "448054fd7dce07e6eaca93970d35d4e753528a46f0beb684ecb150b6dee81b9e",
+      "bytes": 6217
+    },
+    {
+      "path": "tools/audit_netlist.py",
+      "sha256": "d1452b50b199a4bd7e60bf994af58dbc3d577331e8993ea0f5a770d97c4947f9",
+      "bytes": 9041
+    },
+    {
+      "path": "tools/audit_rgb_dual_mount.py",
+      "sha256": "d7203ce516a77c4885ea4ae826c4b9418c1ea5f69f794b888a54bfe732fc2337",
+      "bytes": 4374
+    },
+    {
+      "path": "tools/eprom_tool.py",
+      "sha256": "8ca2b5ad378201ace930ca8c00f352b1a0f3666a381090af5d57f1dfa983a1be",
+      "bytes": 9326
+    },
+    {
+      "path": "tools/generate_lite.py",
+      "sha256": "52c7335cc001855ad935833de611311bbff022ef3a230e469df86adbbf8dc4bc",
+      "bytes": 8034
+    },
+    {
+      "path": "tools/generate_readme.py",
+      "sha256": "023209b20ca8068e4392fb53348edb02e2087506e0e1aaff09104521b7783b79",
+      "bytes": 21533
+    },
+    {
+      "path": "tools/generate_schematic.py",
+      "sha256": "5a05a672b6df7e01f2c613a504912fceb2fc7eb9dd557b4350a28f130ea00f21",
+      "bytes": 38599
+    },
+    {
+      "path": "tools/place_lite_board.py",
+      "sha256": "cac8f624dad4ac97ac894bd481ffe161d112a0ec6451b8c6601c801abbb843ae",
+      "bytes": 10223
+    },
+    {
+      "path": "tools/rgb_dual_mount.py",
+      "sha256": "111ce002d54495f0a08ac96b4d43122cc3d23334a75e10726c878c70ef6b1b4e",
+      "bytes": 14168
+    },
+    {
+      "path": "ttl_bus.kicad_sch",
+      "sha256": "e9aad7a03510a12cd139aa6cb7ff4398e81e68f7da497a9ea2a9c21b8a7e30f0",
+      "bytes": 108535
+    },
+    {
+      "path": "validation/BOM.csv",
+      "sha256": "7d1e8a5705e87b78cbd2f5fa41bbb9ebe5b3acd32c026171753798d6d92daa9d",
+      "bytes": 11938
+    },
+    {
+      "path": "validation/NM27C512_Dumper.pdf",
+      "sha256": "1d19798ea364f7cbbeae00c83ef64ff8860f33bb91d89bfa54508c84f1744dae",
+      "bytes": 759100
+    },
+    {
+      "path": "validation/NM27C512_ReadOnly.pdf",
+      "sha256": "5c3b5c0bf7290787f20b27260b8ec3cedb8324a821fb8f310157886f26eae37a",
+      "bytes": 302222
+    },
+    {
+      "path": "validation/REPORT.md",
+      "sha256": "73f75ee6d4ce629066dd8c2bdbfbab78bd30701ef2e59c0ae358ab00d9189752",
+      "bytes": 4870
+    },
+    {
+      "path": "validation/bom.json",
+      "sha256": "53d3605c0fee9675b9433e5f08442426e1181fa7aa521d471ece8fa048b5cb3f",
+      "bytes": 39816
+    },
+    {
+      "path": "validation/connectivity_audit.json",
+      "sha256": "4590f78517a16d6dfe2cfd63be8dcd827164cbd4f0d6c530cfb3cde521e53e5c",
+      "bytes": 88200
+    },
+    {
+      "path": "validation/erc.json",
+      "sha256": "be5e8ae42d875956a7c9b597e6f771b7e239214e7eb8e01baf34340ea3579ea2",
+      "bytes": 3503
+    },
+    {
+      "path": "validation/netlist.xml",
+      "sha256": "da28bb5b33d12eed09dbb98cba2f40dd8fa6f9404e4f3580d5879d8a84817913",
+      "bytes": 233601
+    },
+    {
+      "path": "validation/rgb_mount_audit.json",
+      "sha256": "9bdf2a8a0239bc1444eafd134fae1211b59e671298ac02b5d9b72e19f84ea360",
+      "bytes": 3689
+    },
+    {
+      "path": "validation/rgb_upgrade.json",
+      "sha256": "06ee133f2072bca6c49f1b83487ae136bb7e3984875e9ad15a47d1d9ef73292a",
+      "bytes": 540
+    }
+  ]
+}

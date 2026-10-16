@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-06",
+  "algorithm": "SHA256",
+  "files": [
+    {
+      "path": "BOM.csv",
+      "sha256": "1c6657182ccdbbd9d82135cc30b754bd295b63c18df4bd138beb5dd6696bec17",
+      "bytes": 1761
+    },
+    {
+      "path": "NM27C512_Dumper_Lite.kicad_pcb",
+      "sha256": "b1f5bd48fd5c3af3aea8a7fcff0f812c3ccfd965c61bf3ab3bf1d1f3e0d91249",
+      "bytes": 179629
+    },
+    {
+      "path": "NM27C512_Dumper_Lite.kicad_pro",
+      "sha256": "e3ae49a9e559b78438c8652b8a1e924a410de211761f0575719edbb2d3f796bd",
+      "bytes": 16650
+    },
+    {
+      "path": "NM27C512_Dumper_Lite.kicad_sch",
+      "sha256": "20e6bcde1ef7607d6a87629f3f2899339832961b4591904348dc2526b7ecac01",
+      "bytes": 218131
+    },
+    {
+      "path": "NM27C512_Dumper_Lite.pdf",
+      "sha256": "16fa0a67596104072884db1a4196f9fc097310796cc5b5695b290e722449af29",
+      "bytes": 261890
+    },
+    {
+      "path": "ProjectFootprints.pretty/RGB_CA_5050_or_THT5.kicad_mod",
+      "sha256": "62eb137be94cfb3ad0f93dc224a40f713e0959554fa3188c2ccc758849e04b57",
+      "bytes": 5220
+    },
+    {
+      "path": "ProjectSymbols.kicad_sym",
+      "sha256": "a91d5ef249914afdb86336c93f0ef730310e79746e826b984299575ad7ab4422",
+      "bytes": 8470
+    },
+    {
+      "path": "README.md",
+      "sha256": "f6ad5650d08656d8c383c032fbb0b75516651f4b674de6b898741f4782974a40",
+      "bytes": 12513
+    },
+    {
+      "path": "fp-lib-table",
+      "sha256": "d61d246ce672ba9c3563e6bee0b21e03252170dedc3f8bbebc26cf5af768b883",
+      "bytes": 193
+    },
+    {
+      "path": "sym-lib-table",
+      "sha256": "c4801da23f8ab21beb1a8af82e708a85b08078571143856b2cd78008435ff5cf",
+      "bytes": 175
+    },
+    {
+      "path": "validate.ps1",
+      "sha256": "8832d21ae780cceb017a6a7bd2ab7bf191c5bd20314119564d7fea8c8853d70b",
+      "bytes": 1345
+    },
+    {
+      "path": "validation/PLACEMENT.md",
+      "sha256": "5322fac7a107c3a43eef65e3862d95920ba040c76be2e55850889741503a81c2",
+      "bytes": 4617
+    },
+    {
+      "path": "validation/Placement_Top.png",
+      "sha256": "93395fec04e018c5167b2e8f70b9f5d5efb904aeeb919c0a7c41ceac6bdf2fba",
+      "bytes": 449441
+    },
+    {
+      "path": "validation/REPORT.md",
+      "sha256": "e321b49ce235e19953fc39c244e20d28c879a32cb08e3fe89fbb27ae7f194d9c",
+      "bytes": 3043
+    },
+    {
+      "path": "validation/bom.json",
+      "sha256": "49614e91ac15f932a15c856481e9600aec249c067980c9976f3e3cf852285617",
+      "bytes": 12133
+    },
+    {
+      "path": "validation/connectivity_audit.json",
+      "sha256": "c525d189fe84e8162e2932eb25d0f11a4ad9dcd7a444cd9d4099f1fd382009f1",
+      "bytes": 19274
+    },
+    {
+      "path": "validation/drc_placement.json",
+      "sha256": "9ed59217add97eb5c4f902cb38db003a51c756523cf9e6d6895c8bc040a5ec31",
+      "bytes": 108807
+    },
+    {
+      "path": "validation/erc.json",
+      "sha256": "aa7880d3a0085929900334ee034036c974c9d02f18c0d58255cb7bab4da8ee08",
+      "bytes": 1051
+    },
+    {
+      "path": "validation/netlist.xml",
+      "sha256": "9d8c1e74ae92283c02374329f3dd4810069802ed0a69c3313029031ab67a2de2",
+      "bytes": 72932
+    },
+    {
+      "path": "validation/placement_audit.json",
+      "sha256": "c1a803855ff7f8a75b15756c7b5979a90d76031d14f9a04160ca8754469613cf",
+      "bytes": 152572
+    },
+    {
+      "path": "validation/placement_verification.json",
+      "sha256": "37702639207c97d92065dee998f0f021d331cf8bf3797d266203d1311a57dcf5",
+      "bytes": 10982
+    }
+  ]
+}

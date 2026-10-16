@@ -1,0 +1,26 @@
+{
+  "board": "Dumper-Lite/NM27C512_Dumper_Lite.kicad_pcb",
+  "sha256": "1147f42970dd9abc639e3f89a14d58c3dbc842d9de7f9c65819ef65f327bd571",
+  "outline_bbox_mm": [
+    77.3,
+    48.05
+  ],
+  "min_track_mm": 0.2,
+  "track_segments": 645,
+  "vias": 212,
+  "min_via_drill_mm": 0.3,
+  "outline_bbox_origin_mm": [
+    49.975,
+    56.475
+  ],
+  "svg_canvas_mm": [
+    77.3,
+    48.05
+  ],
+  "via_sizes": {
+    "(0.6, 0.3)": 203,
+    "(1.6, 0.85)": 6,
+    "(1.4, 0.8)": 1,
+    "(1.2, 0.65)": 2
+  }
+}

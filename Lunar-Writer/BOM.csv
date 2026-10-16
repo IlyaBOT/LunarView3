@@ -1,0 +1,176 @@
+﻿Reference,Value,Footprint,Datasheet
+C1,10uF / 10V,Capacitor_SMD:C_0805_2012Metric,
+C10,100nF,Capacitor_SMD:C_0603_1608Metric,
+C11,22pF,Capacitor_SMD:C_0603_1608Metric,
+C12,22pF,Capacitor_SMD:C_0603_1608Metric,
+C13,100nF auto-reset,Capacitor_SMD:C_0603_1608Metric,
+C14,100nF,Capacitor_SMD:C_0603_1608Metric,
+C15,10uF / 16V,Capacitor_SMD:C_0805_2012Metric,
+C2,100nF,Capacitor_SMD:C_0603_1608Metric,
+C20,100nF / 50V,Capacitor_SMD:C_0603_1608Metric,
+C21,100nF,Capacitor_SMD:C_0603_1608Metric,
+C22,10nF,Capacitor_SMD:C_0603_1608Metric,
+C23,100nF / 50V,Capacitor_SMD:C_0603_1608Metric,
+C24,10uF / 16V,Capacitor_SMD:C_1206_3216Metric,
+C25,10nF,Capacitor_SMD:C_0603_1608Metric,
+C26,100nF,Capacitor_SMD:C_0603_1608Metric,
+C27,100nF,Capacitor_SMD:C_0603_1608Metric,
+C28,100nF / 50V,Capacitor_SMD:C_0603_1608Metric,
+C3,100nF,Capacitor_SMD:C_0603_1608Metric,
+C30,220uF / 50V low ESR,ProjectFootprints:Writer_C30_CP_Radial_D10.0mm_P5.00mm,
+C31,100nF / 50V X7R,Capacitor_SMD:C_0805_2012Metric,
+C32,680uF / 50V low ESR,ProjectFootprints:Writer_C32_CP_Radial_D12.5mm_P5.00mm,
+C33,100nF / 50V X7R,Capacitor_SMD:C_0805_2012Metric,
+C34,47uF / 16V compensation,ProjectFootprints:Writer_C34_CP_Radial_D5.0mm_P2.00mm,
+C35,1uF / 50V X7R,Capacitor_SMD:C_1206_3216Metric,
+C36,1uF / 50V X7R,Capacitor_SMD:C_1206_3216Metric,
+C4,100nF,Capacitor_SMD:C_0603_1608Metric,
+C5,100nF,Capacitor_SMD:C_0603_1608Metric,
+C6,100nF,Capacitor_SMD:C_0603_1608Metric,
+C7,100nF,Capacitor_SMD:C_0603_1608Metric,
+C8,100nF,Capacitor_SMD:C_0603_1608Metric,
+C9,100nF / 16V,Capacitor_SMD:C_0603_1608Metric,
+D10,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D11,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D12,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D13,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D14,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D15,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D16,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D17,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D2,RGB CA / 5050 OR THT5,ProjectFootprints:Writer_D2_RGB_CA_5050_or_THT5,https://www.kingbright.com/attachments/file/psearch/000/00/20160808bak/KAAF-5050RGBS-13%28Ver.3B%29.pdf
+D20,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D21,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D22,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D23,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D24,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D25,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D26,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D27,BAT54S,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D3,RX BLUE,LED_SMD:LED_0603_1608Metric,
+D30,ADC6 BAT54S clamp,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D31,ADC7 BAT54S clamp,Package_TO_SOT_SMD:SOT-23,https://www.diodes.com/assets/Datasheets/ds11005.pdf
+D4,TX ORANGE,LED_SMD:LED_0603_1608Metric,
+D40,SS36 / 3A / 60V reverse-polarity,Diode_SMD:D_SMA,
+D41,SMBJ24A / TVS,Diode_SMD:D_SMB,
+D42,SS36 / 3A / 60V boost rectifier,Diode_SMD:D_SMA,
+D43,M7 / 1N4007-SMD / 1A 1000V,Diode_SMD:D_SMA,
+D44,M7 / 1N4007-SMD / 1A 1000V,Diode_SMD:D_SMA,
+D5,BZT52C10 / 10V,Diode_SMD:D_SOD-123,
+D6,VPP ACTIVE RED,LED_SMD:LED_0603_1608Metric,
+D7,1N4007 output protection,ProjectFootprints:Writer_D7_D_DO-41_SOD81_P10.16mm_Horizontal,
+D8,1N4148WS flyback,Diode_SMD:D_SOD-323,
+D9,BAT54WS RESET clamp,Diode_SMD:D_SOD-323,
+F1,500mA hold,Fuse:Fuse_1812_4532Metric,
+F2,MF-R090 / 0.9A hold / 60V,ProjectFootprints:PTC_MF_R090,
+J1,USB Micro-B,ProjectFootprints:Writer_J1_USB_Micro-B_Molex-105017-0001,
+J2,AVR ISP,ProjectFootprints:Writer_J2_PinHeader_2x03_P2.54mm_Vertical,
+J3,UART (MCU RX/TX),ProjectFootprints:Writer_J3_PinHeader_1x03_P2.54mm_Vertical,
+J4,12-24V DC IN (+ / GND),"ProjectFootprints:Writer_J4_TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+J5,J_TARGET / 40-pin,ProjectFootprints:Writer_J5_PinHeader_2x20_P2.54mm_Vertical,
+JP1,VPP SELECT: 12.75 / common / HIGH,ProjectFootprints:Writer_JP1_PinHeader_1x03_P2.54mm_Vertical,
+K1,G5V-2-DC5 (100mA coil),ProjectFootprints:Writer_K1_Relay_DPDT_Omron_G5V-2,http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_2.pdf
+L1,100uH / SRR1210A-101M / Isat 2.2A,ProjectFootprints:Writer_L1_L_Bourns_SRR1210A,
+Q1,MMBT3906,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf
+Q2,MMBT3906,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf
+Q3,IRF9540N / 100V PMOS,ProjectFootprints:Writer_Q3_TO-220-3_Vertical,http://www.irf.com/product-info/datasheets/data/irf9540n.pdf
+Q4,MMBT5551 / 160V NPN,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf
+Q5,MMBT3904,Package_TO_SOT_SMD:SOT-23,https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf
+Q6,MMBT5551 / 160V NPN,Package_TO_SOT_SMD:SOT-23,
+Q7,MMBT5401 / 150V PNP,Package_TO_SOT_SMD:SOT-23,
+R1,10k,Resistor_SMD:R_0603_1608Metric,
+R10,1k,Resistor_SMD:R_0603_1608Metric,
+R11,1k,Resistor_SMD:R_0603_1608Metric,
+R12,1k,Resistor_SMD:R_0603_1608Metric,
+R13,1k,Resistor_SMD:R_0603_1608Metric,
+R14,1k,Resistor_SMD:R_0603_1608Metric,
+R15,1k,Resistor_SMD:R_0603_1608Metric,
+R16,1k,Resistor_SMD:R_0603_1608Metric,
+R17,1k,Resistor_SMD:R_0603_1608Metric,
+R2,10k CE pull-up,Resistor_SMD:R_0603_1608Metric,
+R20,1k,Resistor_SMD:R_0603_1608Metric,
+R21,1k,Resistor_SMD:R_0603_1608Metric,
+R22,1k,Resistor_SMD:R_0603_1608Metric,
+R23,10k,Resistor_SMD:R_0603_1608Metric,
+R24,10k,Resistor_SMD:R_0603_1608Metric,
+R25,1k,Resistor_SMD:R_0603_1608Metric,
+R26,1k,Resistor_SMD:R_0603_1608Metric,
+R3,10k OE pull-up,Resistor_SMD:R_0603_1608Metric,
+R30,47k gate-source,Resistor_SMD:R_0603_1608Metric,
+R31,2.2k / 0.5W,Resistor_SMD:R_2010_5025Metric,
+R32,1k,Resistor_SMD:R_0603_1608Metric,
+R33,10k base pull-down,Resistor_SMD:R_0603_1608Metric,
+R34,10k VPP_EN pull-down,Resistor_SMD:R_0603_1608Metric,
+R35,120k / 1%,Resistor_SMD:R_0603_1608Metric,
+R36,22k / 1%,Resistor_SMD:R_0603_1608Metric,
+R37,10k bleed / 0.25W,Resistor_SMD:R_1206_3216Metric,
+R38,5.1k,Resistor_SMD:R_0603_1608Metric,
+R39,5.1k,Resistor_SMD:R_0603_1608Metric,
+R4,1k,Resistor_SMD:R_0603_1608Metric,
+R40,120R / 1%,Resistor_SMD:R_0603_1608Metric,
+R41,430R / 1%,Resistor_SMD:R_0603_1608Metric,
+R42,470R relay drive,Resistor_SMD:R_0603_1608Metric,
+R43,10k,Resistor_SMD:R_0603_1608Metric,
+R44,10k,Resistor_SMD:R_0603_1608Metric,
+R45,10k / 1%,Resistor_SMD:R_0603_1608Metric,
+R46,10k / 1%,Resistor_SMD:R_0603_1608Metric,
+R5,1k,Resistor_SMD:R_0603_1608Metric,
+R50,1k,Resistor_SMD:R_0603_1608Metric,
+R51,1k,Resistor_SMD:R_0603_1608Metric,
+R52,1k,Resistor_SMD:R_0603_1608Metric,
+R53,1k,Resistor_SMD:R_0603_1608Metric,
+R54,1k,Resistor_SMD:R_0603_1608Metric,
+R55,1k,Resistor_SMD:R_0603_1608Metric,
+R56,1k,Resistor_SMD:R_0603_1608Metric,
+R57,1k,Resistor_SMD:R_0603_1608Metric,
+R60,10k arm pull-down,Resistor_SMD:R_0603_1608Metric,
+R61,100k bleed,Resistor_SMD:R_0603_1608Metric,
+R62,10k base-emitter,Resistor_SMD:R_0603_1608Metric,
+R63,2.2k / 0.5W,Resistor_SMD:R_2010_5025Metric,
+R64,1k,Resistor_SMD:R_0603_1608Metric,
+R65,10k,Resistor_SMD:R_0603_1608Metric,
+R7,10k LATCH pull-down,Resistor_SMD:R_0603_1608Metric,
+R70,47k / 1%,Resistor_SMD:R_0603_1608Metric,
+R71,2k / 1%,Resistor_SMD:R_0603_1608Metric,
+R72,470R compensation,Resistor_SMD:R_0603_1608Metric,
+R73,120R / 1%,Resistor_SMD:R_0603_1608Metric,
+R74,1k / 1%,Resistor_SMD:R_0603_1608Metric,
+R75,120R / 1%,Resistor_SMD:R_0603_1608Metric,
+R76,1.8k / 1%,Resistor_SMD:R_0603_1608Metric,
+R77,100k bleed,Resistor_SMD:R_0603_1608Metric,
+R8,10k PGM pull-up,Resistor_SMD:R_0603_1608Metric,
+RV1,100R multi-turn,ProjectFootprints:Writer_RV1_Potentiometer_Bourns_3296W_Vertical,
+RV2,200R multi-turn,ProjectFootprints:Writer_RV2_Potentiometer_Bourns_3296W_Vertical,
+RV3,1k multi-turn,ProjectFootprints:Writer_RV3_Potentiometer_Bourns_3296W_Vertical,
+SW1,RESET,ProjectFootprints:Writer_SW1_SW_PUSH_6mm,
+TP1,TP_5V,TestPoint:TestPoint_Pad_D1.5mm,
+TP10,TP_OE,TestPoint:TestPoint_Pad_D1.5mm,
+TP11,TP_PGM,TestPoint:TestPoint_Pad_D1.5mm,
+TP12,TP_RX,TestPoint:TestPoint_Pad_D1.5mm,
+TP13,TP_TX,TestPoint:TestPoint_Pad_D1.5mm,
+TP14,VIN_PROTECTED,TestPoint:TestPoint_Pad_D1.5mm,
+TP15,BOOST_30V,TestPoint:TestPoint_Pad_D1.5mm,
+TP16,VPP_12V75,TestPoint:TestPoint_Pad_D1.5mm,
+TP17,VPP_HIGH,TestPoint:TestPoint_Pad_D1.5mm,
+TP2,TP_GND,TestPoint:TestPoint_Pad_D1.5mm,
+TP3,TP_6V25,TestPoint:TestPoint_Pad_D1.5mm,
+TP4,TP_VPP_IN,TestPoint:TestPoint_Pad_D1.5mm,
+TP5,TP_VPP_SW,TestPoint:TestPoint_Pad_D1.5mm,
+TP6,TP_RESET,TestPoint:TestPoint_Pad_D1.5mm,
+TP7,TP_ADDR_SCK,TestPoint:TestPoint_Pad_D1.5mm,
+TP8,TP_ADDR_LATCH,TestPoint:TestPoint_Pad_D1.5mm,
+TP9,TP_CE,TestPoint:TestPoint_Pad_D1.5mm,
+U1,ATmega328P-AU,Package_QFP:TQFP-32_7x7mm_P0.8mm,http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf
+U10,74LVC1G08 / arm interlock,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U11,"LM2577T-ADJ / 40V input, 60V switch",ProjectFootprints:LM2577T_TO2205,https://www.ti.com/lit/ds/symlink/lm2577.pdf
+U12,LM317T / 12.75V / heatsink,ProjectFootprints:Writer_U12_TO-220-3_Vertical,http://www.ti.com/lit/ds/symlink/lm317.pdf
+U13,LM317T / 21...25V / heatsink,ProjectFootprints:Writer_U13_TO-220-3_Vertical,http://www.ti.com/lit/ds/symlink/lm317.pdf
+U2,74HC595D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+U3,74HC595D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+U4,74HC595D,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,http://www.ti.com/lit/ds/symlink/sn74hc595.pdf
+U5,CH340C,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,https://cdn.sparkfun.com/assets/5/0/a/8/5/CH340DS1.PDF
+U6,NM27C512Q SOCKET,ProjectFootprints:Writer_U6_DIP-28_W15.24mm_Socket_LongPads,http://ww1.microchip.com/downloads/en/DeviceDoc/doc0015.pdf
+U7,LM317T: calibrate 6.250 V,ProjectFootprints:Writer_U7_TO-220-3_Vertical,http://www.ti.com/lit/ds/symlink/lm317.pdf
+U8,74LVC1G08 / pulse interlock,Package_TO_SOT_SMD:SOT-23-5,https://www.ti.com/lit/ds/symlink/sn74lvc1g08.pdf
+U9,SN74HCT245DW,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,http://www.ti.com/lit/gpn/sn74HC245
+Y1,"16MHz, CL ~18pF",ProjectFootprints:Writer_Y1_Crystal_HC49-4H_Vertical,

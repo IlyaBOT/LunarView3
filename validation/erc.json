@@ -1,0 +1,92 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-06T20:05:24",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8",
+            "violations": []
+        },
+        {
+            "path": "/USB / CH340C / ATmega / clock / reset / ISP / UART/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/2a7de2dd-16c4-561a-91ed-0de3890c5490",
+            "violations": []
+        },
+        {
+            "path": "/Address generator and NM27C512 direct socket/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/b0d80a7d-fc7e-5b56-8434-91c2488fb694",
+            "violations": []
+        },
+        {
+            "path": "/Data protection and status LEDs/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/2698b1c1-62f4-526e-b717-2afa659c6253",
+            "violations": []
+        },
+        {
+            "path": "/TTL-compatible bidirectional data bus/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/3b4a738d-818b-57b0-b4e2-de4596ff2e10",
+            "violations": []
+        },
+        {
+            "path": "/External VPP / high-side switch / 6.25 V regulator/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/6fd86ede-fa0f-52cb-9446-0bb45909fbcd",
+            "violations": []
+        },
+        {
+            "path": "/Fast VPP pulse switch / indicator / ADC monitor/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/61463bdf-f1ce-55e6-a9f5-12134bc3c08f",
+            "violations": []
+        },
+        {
+            "path": "/Default-read relay / target connector / monitoring/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/1c315331-cd08-5749-8e51-87c0919c4f4b",
+            "violations": []
+        },
+        {
+            "path": "/Test points and safety sequence/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/abd8e4f9-5a6b-55e6-af58-9a384914f7d9",
+            "violations": []
+        },
+        {
+            "path": "/2716 / KR573RF5 adapter reference/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/05416dbf-270c-5203-b6b6-ad451976d0b2",
+            "violations": []
+        },
+        {
+            "path": "/28-pin EPROM adapter reference/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/8a744ae3-28c2-512f-8eef-6d49911439cc",
+            "violations": []
+        },
+        {
+            "path": "/32-pin JEDEC adapter reference/",
+            "uuid_path": "/2cc6c4a6-3bc8-5412-b634-943d17724dd8/c397fb81-f5fd-5fee-af8f-d7e590d588c0",
+            "violations": []
+        }
+    ],
+    "source": "NM27C512_Dumper.kicad_sch"
+}

@@ -1,0 +1,12 @@
+{
+  "components": 175,
+  "board_mm": [
+    150,
+    105
+  ],
+  "tracks": 2795,
+  "vias": 250,
+  "gnd_zones": 2,
+  "pads_match_schematic": true,
+  "physical_hardware_tested": false
+}

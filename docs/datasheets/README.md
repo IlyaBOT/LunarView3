@@ -1,0 +1,28 @@
+# Локальные даташиты
+
+24 PDF-файла сохранены из прежней папки tmp без изменения содержимого при очистке 12.10.2026. Источники и ограничения совместимости описаны в [sources.md](../sources.md) и документации соответствующих плат. Наличие даташита в этой папке не означает совместимость детали с дампером.
+
+- [74HC595.pdf](74HC595.pdf)
+- [74LVC1G08.pdf](74LVC1G08.pdf)
+- [APFA3010.pdf](APFA3010.pdf)
+- [ATmega328P.pdf](ATmega328P.pdf)
+- [BAT54S.pdf](BAT54S.pdf)
+- [CH340_WCH.pdf](CH340_WCH.pdf)
+- [G5V2.pdf](G5V2.pdf)
+- [HCT245.pdf](HCT245.pdf)
+- [Intel_27128A.pdf](Intel_27128A.pdf)
+- [Intel_27256.pdf](Intel_27256.pdf)
+- [Intel_2732.pdf](Intel_2732.pdf)
+- [Intel_2764.pdf](Intel_2764.pdf)
+- [Intel2716.pdf](Intel2716.pdf)
+- [IRF9540N.pdf](IRF9540N.pdf)
+- [KAAF-5050RGBS-13.pdf](KAAF-5050RGBS-13.pdf)
+- [LM317.pdf](LM317.pdf)
+- [MMBT5401.pdf](MMBT5401.pdf)
+- [MMBT5551.pdf](MMBT5551.pdf)
+- [NM27C010.pdf](NM27C010.pdf)
+- [NM27C020.pdf](NM27C020.pdf)
+- [NM27C040.pdf](NM27C040.pdf)
+- [NM27C512.pdf](NM27C512.pdf)
+- [rf5.pdf](rf5.pdf)
+- [WP154A4SEJ3VBDZGW-CA.pdf](WP154A4SEJ3VBDZGW-CA.pdf)

@@ -1,0 +1,11 @@
+{
+  "dumper_before_sha256": "1147f42970dd9abc639e3f89a14d58c3dbc842d9de7f9c65819ef65f327bd571",
+  "dumper_after_sha256": "2278361fe8b3856e769850c94cf597b9512001b14a855da5d3d8aac662b644fe",
+  "changed_board_text": [
+    "ATmega328P USB ROM DUMPER",
+    "ATmega Dumper Lite"
+  ],
+  "all_non_text_pcb_nodes_identical": true,
+  "legacy_file_names_kept_for_existing_paths": true,
+  "writer_project": "Lunar-Writer/Lunar_Writer.kicad_pro"
+}

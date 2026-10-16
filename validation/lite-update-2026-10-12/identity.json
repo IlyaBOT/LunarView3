@@ -1,0 +1,16 @@
+{
+  "production": {
+    "identity": "CON:Lunar Dumper LITE (Rev. 1) | Firmware: v.1.0.0 (build 9e5241b8ac) 12.10.2026",
+    "identity_in_text": true,
+    "identity_in_data": false,
+    "text_bytes": 2372,
+    "data_bytes": 24
+  },
+  "revision-test": {
+    "identity": "CON:Lunar Dumper LITE (Rev. 7) | Firmware: v.2.3.4 (build a8191hbz1) 12.10.2026",
+    "identity_in_text": true,
+    "identity_in_data": false,
+    "text_bytes": 2336,
+    "data_bytes": 24
+  }
+}

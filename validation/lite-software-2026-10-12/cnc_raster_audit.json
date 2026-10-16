@@ -1,0 +1,24 @@
+{
+  "F": {
+    "pixels": [
+      7730,
+      4805
+    ],
+    "non_binary_pixels": 0,
+    "pad_samples": 205,
+    "failed_pad_centers": [],
+    "copper_area_mm2": 2805.2098,
+    "ideal_scan_minutes_at_1000mm_min_pitch_0_05": 56.104195999999995
+  },
+  "B": {
+    "pixels": [
+      7730,
+      4805
+    ],
+    "non_binary_pixels": 0,
+    "pad_samples": 50,
+    "failed_pad_centers": [],
+    "copper_area_mm2": 2912.9125,
+    "ideal_scan_minutes_at_1000mm_min_pitch_0_05": 58.25824999999999
+  }
+}

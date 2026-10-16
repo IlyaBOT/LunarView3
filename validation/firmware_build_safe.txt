@@ -1,0 +1,12 @@
+AVR Memory Usage
+----------------
+Device: atmega328p
+
+Program:    4224 bytes (12.9% Full)
+(.text + .data + .bootloader)
+
+Data:        235 bytes (11.5% Full)
+(.data + .bss + .noinit)
+
+
+Built F:\ATmega_EPROM-Dumper\firmware\dumper_safe.hex using C:\Users\IlyaBOT\AppData\Local\Arduino15\packages\arduino\tools\avr-gcc\7.3.0-atmel3.6.1-arduino7\bin\avr-gcc.exe

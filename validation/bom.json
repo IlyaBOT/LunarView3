@@ -1,0 +1,1780 @@
+[
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "J1",
+    "value": "USB Micro-B",
+    "symbol": "Connector:USB_B_Micro",
+    "footprint": "Connector_USB:USB_Micro-B_Molex-105017-0001",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "USB_D-",
+      "3": "USB_D+",
+      "4": null,
+      "5": "GND",
+      "SH": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "F1",
+    "value": "500mA hold",
+    "symbol": "Device:Polyfuse",
+    "footprint": "Fuse:Fuse_1812_4532Metric",
+    "nets": {
+      "1": "USB_VBUS",
+      "2": "+5V"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C1",
+    "value": "10uF / 10V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "U5",
+    "value": "CH340C",
+    "symbol": "ProjectSymbols:CH340C_WCH",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "1": "GND",
+      "2": "CH_TX",
+      "3": "CH_RX",
+      "4": "CH_V3",
+      "5": "USB_D+",
+      "6": "USB_D-",
+      "7": null,
+      "8": null,
+      "9": null,
+      "10": null,
+      "11": null,
+      "12": null,
+      "13": "DTR#",
+      "14": null,
+      "15": "GND",
+      "16": "+5V"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C2",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C3",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "CH_V3",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "R4",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "CH_TX",
+      "2": "UART_RX"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "R5",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_TX",
+      "2": "CH_RX"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "U1",
+    "value": "ATmega328P-AU",
+    "symbol": "MCU_Microchip_ATmega:ATmega328P-A",
+    "footprint": "Package_QFP:TQFP-32_7x7mm_P0.8mm",
+    "nets": {
+      "1": "PROG_MODE",
+      "2": "ROM_D6",
+      "3": "GND",
+      "4": "+5V",
+      "5": "GND",
+      "6": "+5V",
+      "7": "XTAL1",
+      "8": "XTAL2",
+      "9": "ROM_D7",
+      "10": "TARGET_CE_PGM#",
+      "11": "TARGET_OE#",
+      "12": "TARGET_PGM#",
+      "13": "HV_ARM_EN",
+      "14": "ADDR_LATCH",
+      "15": "ADDR_SER",
+      "16": "ISP_MISO",
+      "17": "ADDR_SCK",
+      "18": "+5V",
+      "19": "VPP_SENSE",
+      "20": "AREF",
+      "21": "GND",
+      "22": "TARGET_VCC_SENSE",
+      "23": "ROM_D0",
+      "24": "ROM_D1",
+      "25": "ROM_D2",
+      "26": "ROM_D3",
+      "27": "ROM_D4",
+      "28": "ROM_D5",
+      "29": "RESET",
+      "30": "UART_RX",
+      "31": "UART_TX",
+      "32": "VPP_EN"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "Y1",
+    "value": "16MHz, CL ~18pF",
+    "symbol": "Device:Crystal",
+    "footprint": "Crystal:Crystal_HC49-4H_Vertical",
+    "nets": {
+      "1": "XTAL1",
+      "2": "XTAL2"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C11",
+    "value": "22pF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "XTAL1",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C12",
+    "value": "22pF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "XTAL2",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "R1",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "RESET"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "SW1",
+    "value": "RESET",
+    "symbol": "Switch:SW_Push",
+    "footprint": "Button_Switch_THT:SW_PUSH_6mm",
+    "nets": {
+      "1": "RESET",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C13",
+    "value": "100nF auto-reset",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "DTR#",
+      "2": "RESET"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "D9",
+    "value": "BAT54WS RESET clamp",
+    "symbol": "Device:D_Schottky",
+    "footprint": "Diode_SMD:D_SOD-323",
+    "nets": {
+      "1": "+5V",
+      "2": "RESET"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C4",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C5",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C6",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "C10",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "AREF",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "J2",
+    "value": "AVR ISP",
+    "symbol": "Connector:AVR-ISP-6",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "ISP_MISO",
+      "2": "+5V",
+      "3": "ADDR_SCK",
+      "4": "ADDR_SER",
+      "5": "RESET",
+      "6": "GND"
+    }
+  },
+  {
+    "sheet": "controller.kicad_sch",
+    "ref": "J3",
+    "value": "UART (MCU RX/TX)",
+    "symbol": "Connector_Generic:Conn_01x03",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical",
+    "nets": {
+      "1": "GND",
+      "2": "UART_RX",
+      "3": "UART_TX"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "U2",
+    "value": "74HC595D",
+    "symbol": "74xx:74HC595",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "8": "GND",
+      "10": "+5V",
+      "11": "ADDR_SCK",
+      "12": "ADDR_LATCH",
+      "13": "GND",
+      "14": "ADDR_SER",
+      "16": "+5V",
+      "15": "A0",
+      "1": "A1",
+      "2": "A2",
+      "3": "A3",
+      "4": "A4",
+      "5": "A5",
+      "6": "A6",
+      "7": "A7",
+      "9": "CASCADE_1"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "C7",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "U3",
+    "value": "74HC595D",
+    "symbol": "74xx:74HC595",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "8": "GND",
+      "10": "+5V",
+      "11": "ADDR_SCK",
+      "12": "ADDR_LATCH",
+      "13": "GND",
+      "14": "CASCADE_1",
+      "16": "+5V",
+      "15": "A8",
+      "1": "A9",
+      "2": "A10",
+      "3": "A11",
+      "4": "A12",
+      "5": "A13",
+      "6": "A14",
+      "7": "A15",
+      "9": "CASCADE_2"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "C8",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "U4",
+    "value": "74HC595D",
+    "symbol": "74xx:74HC595",
+    "footprint": "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm",
+    "nets": {
+      "8": "GND",
+      "10": "+5V",
+      "11": "ADDR_SCK",
+      "12": "ADDR_LATCH",
+      "13": "GND",
+      "14": "CASCADE_2",
+      "16": "+5V",
+      "15": "A16",
+      "1": "A17",
+      "2": "A18",
+      "3": "A19",
+      "4": "STATUS_RED",
+      "5": "STATUS_GREEN",
+      "6": "STATUS_BLUE",
+      "7": null,
+      "9": null
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "C14",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "R7",
+    "value": "10k LATCH pull-down",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "ADDR_LATCH",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "U6",
+    "value": "NM27C512Q SOCKET",
+    "symbol": "Memory_EPROM:27C512",
+    "footprint": "Package_DIP:DIP-28_W15.24mm_Socket_LongPads",
+    "nets": {
+      "1": "A15",
+      "2": "A12",
+      "3": "A7",
+      "4": "A6",
+      "5": "A5",
+      "6": "A4",
+      "7": "A3",
+      "8": "A2",
+      "9": "A1",
+      "10": "A0",
+      "11": "TARGET_D0",
+      "12": "TARGET_D1",
+      "13": "TARGET_D2",
+      "14": "GND",
+      "15": "TARGET_D3",
+      "16": "TARGET_D4",
+      "17": "TARGET_D5",
+      "18": "TARGET_D6",
+      "19": "TARGET_D7",
+      "20": "TARGET_CE_PGM#",
+      "21": "A10",
+      "22": "SOCKET_OE_VPP",
+      "23": "A11",
+      "24": "A9",
+      "25": "A8",
+      "26": "A13",
+      "27": "A14",
+      "28": "TARGET_VCC"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "C9",
+    "value": "100nF / 16V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_VCC",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "R2",
+    "value": "10k CE pull-up",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "TARGET_CE_PGM#"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "R3",
+    "value": "10k OE pull-up",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "TARGET_OE#"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "R8",
+    "value": "10k PGM pull-up",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "TARGET_PGM#"
+    }
+  },
+  {
+    "sheet": "address_target.kicad_sch",
+    "ref": "C15",
+    "value": "10uF / 16V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0805_2012Metric",
+    "nets": {
+      "1": "TARGET_VCC",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R10",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A0",
+      "2": "ROM_D0"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D10",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D0"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R11",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A1",
+      "2": "ROM_D1"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D11",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D1"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R12",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A2",
+      "2": "ROM_D2"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D12",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D2"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R13",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A3",
+      "2": "ROM_D3"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D13",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D3"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R14",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A4",
+      "2": "ROM_D4"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D14",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D4"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R15",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A5",
+      "2": "ROM_D5"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D15",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D5"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R16",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A6",
+      "2": "ROM_D6"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D16",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D6"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R17",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HCT_A7",
+      "2": "ROM_D7"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D17",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "ROM_D7"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D2",
+    "value": "RGB CA / 5050 OR THT5",
+    "symbol": "ProjectSymbols:RGB_CA_DualMount",
+    "footprint": "ProjectFootprints:RGB_CA_5050_or_THT5",
+    "nets": {
+      "1": "RGB_R_K",
+      "2": "+5V",
+      "3": "RGB_G_K",
+      "4": "RGB_B_K"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R20",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STATUS_RED",
+      "2": "RGB_R_K"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R21",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STATUS_GREEN",
+      "2": "RGB_G_K"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R22",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "STATUS_BLUE",
+      "2": "RGB_B_K"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "Q1",
+    "value": "MMBT3906",
+    "symbol": "Transistor_BJT:MMBT3906",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "UART_RX_LED_B",
+      "2": "+5V",
+      "3": "UART_RX_LED_C"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R23",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_RX",
+      "2": "UART_RX_LED_B"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R25",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_RX_LED_C",
+      "2": "UART_RX_LED_A"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D3",
+    "value": "RX BLUE",
+    "symbol": "Device:LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "UART_RX_LED_A"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "Q2",
+    "value": "MMBT3906",
+    "symbol": "Transistor_BJT:MMBT3906",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "UART_TX_LED_B",
+      "2": "+5V",
+      "3": "UART_TX_LED_C"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R24",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_TX",
+      "2": "UART_TX_LED_B"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "R26",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "UART_TX_LED_C",
+      "2": "UART_TX_LED_A"
+    }
+  },
+  {
+    "sheet": "data_status.kicad_sch",
+    "ref": "D4",
+    "value": "TX ORANGE",
+    "symbol": "Device:LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "UART_TX_LED_A"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "U9",
+    "value": "SN74HCT245DW",
+    "symbol": "74xx:74HC245",
+    "footprint": "Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm",
+    "nets": {
+      "1": "VPP_DRIVE",
+      "10": "GND",
+      "19": "GND",
+      "20": "+5V",
+      "2": "HCT_A0",
+      "18": "HCT_B0",
+      "3": "HCT_A1",
+      "17": "HCT_B1",
+      "4": "HCT_A2",
+      "16": "HCT_B2",
+      "5": "HCT_A3",
+      "15": "HCT_B3",
+      "6": "HCT_A4",
+      "14": "HCT_B4",
+      "7": "HCT_A5",
+      "13": "HCT_B5",
+      "8": "HCT_A6",
+      "12": "HCT_B6",
+      "9": "HCT_A7",
+      "11": "HCT_B7"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "C26",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R50",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D0",
+      "2": "HCT_B0"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D20",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B0"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R51",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D1",
+      "2": "HCT_B1"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D21",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B1"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R52",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D2",
+      "2": "HCT_B2"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D22",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B2"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R53",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D3",
+      "2": "HCT_B3"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D23",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B3"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R54",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D4",
+      "2": "HCT_B4"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D24",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B4"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R55",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D5",
+      "2": "HCT_B5"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D25",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B5"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R56",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D6",
+      "2": "HCT_B6"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D26",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B6"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "R57",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_D7",
+      "2": "HCT_B7"
+    }
+  },
+  {
+    "sheet": "ttl_bus.kicad_sch",
+    "ref": "D27",
+    "value": "BAT54S",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "HCT_B7"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "J4",
+    "value": "J_VPP_IN",
+    "symbol": "Connector_Generic:Conn_01x02",
+    "footprint": "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",
+    "nets": {
+      "1": "VPP_IN",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "C20",
+    "value": "100nF / 50V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "VPP_IN",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "Q3",
+    "value": "IRF9540N / 100V PMOS",
+    "symbol": "Transistor_FET:IRF9540N",
+    "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+    "nets": {
+      "1": "VPP_GATE",
+      "2": "HV_ARM",
+      "3": "VPP_IN"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R30",
+    "value": "47k gate-source",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_IN",
+      "2": "VPP_GATE"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "D5",
+    "value": "BZT52C10 / 10V",
+    "symbol": "Device:D_Zener",
+    "footprint": "Diode_SMD:D_SOD-123",
+    "nets": {
+      "1": "VPP_IN",
+      "2": "VPP_GATE"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R31",
+    "value": "2.2k / 0.25W",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "nets": {
+      "1": "VPP_GATE",
+      "2": "VPP_PULLDOWN"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "Q4",
+    "value": "MMBT3904",
+    "symbol": "Transistor_BJT:MMBT3904",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "VPP_NPN_BASE",
+      "2": "GND",
+      "3": "VPP_PULLDOWN"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R32",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HV_ARM_DRIVE",
+      "2": "VPP_NPN_BASE"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R33",
+    "value": "10k base pull-down",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_NPN_BASE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "U10",
+    "value": "74LVC1G08 / arm interlock",
+    "symbol": "74xGxx:74LVC1G08",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "nets": {
+      "1": "HV_ARM_EN",
+      "2": "RESET",
+      "3": "GND",
+      "4": "HV_ARM_DRIVE",
+      "5": "+5V"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "C27",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R60",
+    "value": "10k arm pull-down",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HV_ARM_EN",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "C28",
+    "value": "100nF / 50V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "HV_ARM",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R61",
+    "value": "100k bleed",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HV_ARM",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "U7",
+    "value": "LM317T: calibrate 6.250 V",
+    "symbol": "Regulator_Linear:LM317_TO-220",
+    "footprint": "Package_TO_SOT_THT:TO-220-3_Vertical",
+    "nets": {
+      "1": "LM_ADJ",
+      "2": "+6V25_PROG",
+      "3": "VPP_IN"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "C23",
+    "value": "100nF / 50V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "VPP_IN",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "C24",
+    "value": "10uF / 16V",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_1206_3216Metric",
+    "nets": {
+      "1": "+6V25_PROG",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R40",
+    "value": "120R / 1%",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "+6V25_PROG",
+      "2": "LM_ADJ"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "R41",
+    "value": "430R / 1%",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "LM_ADJ",
+      "2": "LM_TRIM"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "RV1",
+    "value": "100R multi-turn",
+    "symbol": "Device:R_Potentiometer",
+    "footprint": "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical",
+    "nets": {
+      "1": "LM_TRIM",
+      "2": "GND",
+      "3": "GND"
+    }
+  },
+  {
+    "sheet": "programming_power.kicad_sch",
+    "ref": "D7",
+    "value": "1N4007 output protection",
+    "symbol": "Device:D",
+    "footprint": "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal",
+    "nets": {
+      "1": "VPP_IN",
+      "2": "+6V25_PROG"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "Q7",
+    "value": "MMBT5401 / 150V PNP",
+    "symbol": "Transistor_BJT:Q_PNP_BEC",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "PULSE_PNP_BASE",
+      "2": "HV_ARM",
+      "3": "VPP_SW"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R62",
+    "value": "10k base-emitter",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "HV_ARM",
+      "2": "PULSE_PNP_BASE"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R63",
+    "value": "2.2k / 0.25W",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_1206_3216Metric",
+    "nets": {
+      "1": "PULSE_PNP_BASE",
+      "2": "PULSE_PULLDOWN"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "Q6",
+    "value": "MMBT5551 / 160V NPN",
+    "symbol": "Transistor_BJT:Q_NPN_BEC",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "PULSE_NPN_BASE",
+      "2": "GND",
+      "3": "PULSE_PULLDOWN"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R64",
+    "value": "1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_DRIVE",
+      "2": "PULSE_NPN_BASE"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R65",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PULSE_NPN_BASE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "U8",
+    "value": "74LVC1G08 / pulse interlock",
+    "symbol": "74xGxx:74LVC1G08",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+    "nets": {
+      "1": "VPP_EN",
+      "2": "RESET",
+      "3": "GND",
+      "4": "VPP_DRIVE",
+      "5": "+5V"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "C21",
+    "value": "100nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R34",
+    "value": "10k VPP_EN pull-down",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_EN",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R35",
+    "value": "120k / 1%",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_SW",
+      "2": "VPP_SENSE"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R36",
+    "value": "22k / 1%",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_SENSE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "C22",
+    "value": "10nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "VPP_SENSE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "D30",
+    "value": "ADC6 BAT54S clamp",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "VPP_SENSE"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R37",
+    "value": "10k bleed",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_SW",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R38",
+    "value": "5.1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_SW",
+      "2": "VPP_LED_MID"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "R39",
+    "value": "5.1k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "VPP_LED_MID",
+      "2": "VPP_LED_A"
+    }
+  },
+  {
+    "sheet": "programming_pulse.kicad_sch",
+    "ref": "D6",
+    "value": "VPP ACTIVE RED",
+    "symbol": "Device:LED",
+    "footprint": "LED_SMD:LED_0603_1608Metric",
+    "nets": {
+      "1": "GND",
+      "2": "VPP_LED_A"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "K1",
+    "value": "G5V-2-DC5 (100mA coil)",
+    "symbol": "Relay:G5V-2",
+    "footprint": "Relay_THT:Relay_DPDT_Omron_G5V-2",
+    "nets": {
+      "1": "+5V",
+      "16": "RELAY_COIL_LOW",
+      "4": "TARGET_VCC",
+      "6": "+5V",
+      "8": "+6V25_PROG",
+      "13": "SOCKET_OE_VPP",
+      "11": "TARGET_OE#",
+      "9": "VPP_SW"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "Q5",
+    "value": "MMBT3904",
+    "symbol": "Transistor_BJT:MMBT3904",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "RELAY_BASE",
+      "2": "GND",
+      "3": "RELAY_COIL_LOW"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "R42",
+    "value": "470R relay drive",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PROG_MODE",
+      "2": "RELAY_BASE"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "R43",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "RELAY_BASE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "R44",
+    "value": "10k",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "PROG_MODE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "D8",
+    "value": "1N4148WS flyback",
+    "symbol": "Device:D",
+    "footprint": "Diode_SMD:D_SOD-323",
+    "nets": {
+      "1": "+5V",
+      "2": "RELAY_COIL_LOW"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "R45",
+    "value": "10k / 1%",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_VCC",
+      "2": "TARGET_VCC_SENSE"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "R46",
+    "value": "10k / 1%",
+    "symbol": "Device:R",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_VCC_SENSE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "C25",
+    "value": "10nF",
+    "symbol": "Device:C",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "nets": {
+      "1": "TARGET_VCC_SENSE",
+      "2": "GND"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "D31",
+    "value": "ADC7 BAT54S clamp",
+    "symbol": "Diode:BAT54S",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "nets": {
+      "1": "GND",
+      "2": "+5V",
+      "3": "TARGET_VCC_SENSE"
+    }
+  },
+  {
+    "sheet": "target_interface.kicad_sch",
+    "ref": "J5",
+    "value": "J_TARGET / 40-pin",
+    "symbol": "Connector_Generic:Conn_02x20_Odd_Even",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical",
+    "nets": {
+      "1": "A0",
+      "2": "A1",
+      "3": "A2",
+      "4": "A3",
+      "5": "A4",
+      "6": "A5",
+      "7": "A6",
+      "8": "A7",
+      "9": "A8",
+      "10": "A9",
+      "11": "A10",
+      "12": "A11",
+      "13": "A12",
+      "14": "A13",
+      "15": "A14",
+      "16": "A15",
+      "17": "A16",
+      "18": "A17",
+      "19": "A18",
+      "20": "A19",
+      "21": "TARGET_D0",
+      "22": "TARGET_D1",
+      "23": "TARGET_D2",
+      "24": "TARGET_D3",
+      "25": "TARGET_D4",
+      "26": "TARGET_D5",
+      "27": "TARGET_D6",
+      "28": "TARGET_D7",
+      "29": "TARGET_CE_PGM#",
+      "30": "TARGET_OE#",
+      "31": "TARGET_PGM#",
+      "32": "VPP_SW",
+      "33": "TARGET_VCC",
+      "34": "+5V",
+      "35": "+6V25_PROG",
+      "36": "GND",
+      "37": "PROG_MODE",
+      "38": "GND",
+      "39": "RESET",
+      "40": "GND"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP1",
+    "value": "TP_5V",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "+5V"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP2",
+    "value": "TP_GND",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "GND"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP3",
+    "value": "TP_6V25",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "+6V25_PROG"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP4",
+    "value": "TP_VPP_IN",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "VPP_IN"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP5",
+    "value": "TP_VPP_SW",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "VPP_SW"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP6",
+    "value": "TP_RESET",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "RESET"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP7",
+    "value": "TP_ADDR_SCK",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "ADDR_SCK"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP8",
+    "value": "TP_ADDR_LATCH",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "ADDR_LATCH"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP9",
+    "value": "TP_CE",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "TARGET_CE_PGM#"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP10",
+    "value": "TP_OE",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "TARGET_OE#"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP11",
+    "value": "TP_PGM",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "TARGET_PGM#"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP12",
+    "value": "TP_RX",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "UART_RX"
+    }
+  },
+  {
+    "sheet": "testpoints_safety.kicad_sch",
+    "ref": "TP13",
+    "value": "TP_TX",
+    "symbol": "Connector:TestPoint",
+    "footprint": "TestPoint:TestPoint_Pad_D1.5mm",
+    "nets": {
+      "1": "UART_TX"
+    }
+  }
+]

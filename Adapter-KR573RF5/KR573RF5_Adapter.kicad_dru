@@ -1,0 +1,6 @@
+(version 1)
+# Intentional vertical stacking: J1 top tails must be trimmed flush before J2.
+# Only the J1/J2 mechanical courtyard interaction is allowed; electrical DRC stays active.
+(rule "DIP socket above flush plug tails"
+  (condition "(A.Reference == 'J1' && B.Reference == 'J2') || (A.Reference == 'J2' && B.Reference == 'J1')")
+  (constraint courtyard_clearance (min -1mm)))

@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# Visual envelope, NOT factory CAD. Bourns SRR1210A, nominal 12 x 12 x 10 mm.
+Transform { translation 0 0 5.15 children [ Shape { appearance Appearance { material Material { diffuseColor 0.12 0.13 0.14 } } geometry Box { size 12 12 9.7 } } ] }
+Transform { translation -5.05 0 0.15 children [ Shape { appearance Appearance { material Material { diffuseColor 0.7 0.7 0.73 } } geometry Box { size 2.4 5.3 0.3 } } ] }
+Transform { translation 5.05 0 0.15 children [ Shape { appearance Appearance { material Material { diffuseColor 0.7 0.7 0.73 } } geometry Box { size 2.4 5.3 0.3 } } ] }

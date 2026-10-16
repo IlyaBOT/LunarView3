@@ -1,0 +1,33 @@
+ref,value,symbol,footprint,sheet
+J1,USB Micro-B,Connector:USB_B_Micro,Connector_USB:USB_Micro-B_Molex-105017-0001,controller.kicad_sch
+F1,500mA hold,Device:Polyfuse,Fuse:Fuse_1812_4532Metric,controller.kicad_sch
+C1,10uF / 10V,Device:C,Capacitor_SMD:C_0805_2012Metric,controller.kicad_sch
+U4,CH340C,ProjectSymbols:CH340C_WCH,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,controller.kicad_sch
+C2,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C3,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+R4,1k,Device:R,Resistor_SMD:R_0603_1608Metric,controller.kicad_sch
+R5,1k,Device:R,Resistor_SMD:R_0603_1608Metric,controller.kicad_sch
+U1,ATmega328P-AU,MCU_Microchip_ATmega:ATmega328P-A,Package_QFP:TQFP-32_7x7mm_P0.8mm,controller.kicad_sch
+Y1,"16MHz, CL ~18pF",Device:Crystal,Crystal:Crystal_HC49-4H_Vertical,controller.kicad_sch
+C11,22pF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C12,22pF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+R1,10k,Device:R,Resistor_SMD:R_0603_1608Metric,controller.kicad_sch
+SW1,RESET,Switch:SW_Push,Button_Switch_THT:SW_PUSH_6mm,controller.kicad_sch
+C13,100nF auto-reset,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C4,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C5,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C6,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C10,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+J2,AVR ISP,Connector:AVR-ISP-6,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,controller.kicad_sch
+J3,UART (MCU RX/TX),Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,controller.kicad_sch
+U2,74HC595D,74xx:74HC595,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,address_target.kicad_sch
+C7,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+U3,74HC595D,74xx:74HC595,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,address_target.kicad_sch
+C8,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+R7,10k LATCH pull-down,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+U5,NM27C512Q SOCKET,Memory_EPROM:27C512,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,address_target.kicad_sch
+C9,100nF / 16V,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+R2,10k CE pull-up,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+R3,10k OE pull-up,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+R6,1k,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+D1,POWER GREEN,Device:LED,LED_SMD:LED_0603_1608Metric,address_target.kicad_sch

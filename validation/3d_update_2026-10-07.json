@@ -1,0 +1,23 @@
+[
+  {
+    "board": "NM27C512_Dumper.kicad_pcb",
+    "sha256_before": "bbcc49219370d03a1a4723a7e77a2df126cfc33fb039130369f25c287ea30d4f",
+    "sha256_after": "c7ba0c7cef58a030d169c123a87e655ada49919349ee0457708c315abda0f3f6",
+    "refs": [
+      "J1",
+      "F1",
+      "D2"
+    ],
+    "non_model_ast_unchanged": true
+  },
+  {
+    "board": "Dumper-Lite\\NM27C512_Dumper_Lite.kicad_pcb",
+    "sha256_before": "a594559d0e260e112ff58d1d11706b82b7a419fe62b2c4c6683ac563bcd191f0",
+    "sha256_after": "3446dfcada1057cbda782a00378908fd5622f07a0b60b10a9023818447eef48d",
+    "refs": [
+      "D1",
+      "J1"
+    ],
+    "non_model_ast_unchanged": true
+  }
+]

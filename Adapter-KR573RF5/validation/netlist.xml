@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\ATmega_EPROM-Dumper\Adapter-KR573RF5\KR573RF5_Adapter.kicad_sch</source>
+    <date>2026-10-07T19:35:00</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>KR573RF5 compact read-only adapter</title>
+        <company/>
+        <rev>A</rev>
+        <date>2026-10-07</date>
+        <source>KR573RF5_Adapter.kicad_sch</source>
+        <comment number="1" value="5 V READ ONLY / buffered TTL data / no VPP"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>848f2c57-89ae-5630-9ae3-200864e135a3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF / 16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>393e0255-7e9c-5043-8f14-96c3296eb9ef</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>1uF / 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <property name="ki_fp_filters" value="C_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99040f52-0375-5721-975a-14022a28fe2e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>DIP28 male / bottom</value>
+      <footprint>ProjectFootprints:DIP28_Male_RoundPins_Bottom</footprint>
+      <fields>
+        <field name="Footprint">ProjectFootprints:DIP28_Male_RoundPins_Bottom</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x28" description="Generic connector, single row, 01x28, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9315580d-b635-5a18-98f9-e7e80c718fdb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>KR573RF5 socket DIP24</value>
+      <footprint>Package_DIP:DIP-24_W15.24mm_Socket_LongPads</footprint>
+      <datasheet>https://storage.ua.prom.st/1093634_kr573rf5.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_DIP:DIP-24_W15.24mm_Socket_LongPads</field>
+        <field name="Datasheet">https://storage.ua.prom.st/1093634_kr573rf5.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ProjectSymbols" part="KR573RF5_ReadOnly" description=""/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>88391347-4247-52fb-b67f-eb25ee72ae0d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="3"/>
+            <pin num="2"/>
+            <pin num="1"/>
+            <pin num="23"/>
+            <pin num="22"/>
+            <pin num="19"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="24"/>
+            <pin num="12"/>
+            <pin num="21"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN1">
+      <value>4x47k CAY16-473J4LF</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <property name="ki_fp_filters" value="DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>791a0d1c-504e-5771-9f1c-995fe710481e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="1"/>
+            <pin num="7"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RN2">
+      <value>4x47k CAY16-473J4LF</value>
+      <footprint>Resistor_SMD:R_Array_Convex_4x0603</footprint>
+      <datasheet>https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_Array_Convex_4x0603</field>
+        <field name="Datasheet">https://www.bourns.com/docs/Product-Datasheets/CATCAY.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Device" part="R_Pack04" description="4 resistor network, parallel topology"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="R network parallel topology isolated"/>
+      <property name="ki_fp_filters" value="DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3632ffef-e4b4-5c3f-b297-1f766787918b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="8"/>
+            <pin num="1"/>
+            <pin num="7"/>
+            <pin num="2"/>
+            <pin num="6"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>SN74HCT245PW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74hct245.pdf</datasheet>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74hct245.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ProjectSymbols" part="HCT245_ReadBuffer" description="Octal BUS Transceivers, 3-State outputs"/>
+      <property name="Sheetname" value="KR573RF5_Adapter"/>
+      <property name="Sheetfile" value="KR573RF5_Adapter.kicad_sch"/>
+      <property name="ki_keywords" value="HCMOS BUS 3State"/>
+      <property name="ki_fp_filters" value="DIP?20*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21f80f01-f819-58c2-be88-97afaf492881</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="1"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="10"/>
+            <pin num="18"/>
+            <pin num="17"/>
+            <pin num="16"/>
+            <pin num="15"/>
+            <pin num="14"/>
+            <pin num="13"/>
+            <pin num="12"/>
+            <pin num="11"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x28">
+      <description>Generic connector, single row, 01x28, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x28</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x28, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Unpolarized capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Pack04">
+      <description>4 resistor network, parallel topology</description>
+      <footprints>
+        <fp>DIP*</fp>
+        <fp>SOIC*</fp>
+        <fp>R*Array*Concave*</fp>
+        <fp>R*Array*Convex*</fp>
+        <fp>MSOP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">R_Pack04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">4 resistor network, parallel topology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="R1.1" type="passive"/>
+        <pin num="2" name="R2.1" type="passive"/>
+        <pin num="3" name="R3.1" type="passive"/>
+        <pin num="4" name="R4.1" type="passive"/>
+        <pin num="5" name="R4.2" type="passive"/>
+        <pin num="6" name="R3.2" type="passive"/>
+        <pin num="7" name="R2.2" type="passive"/>
+        <pin num="8" name="R1.2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectSymbols" part="HCT245_ReadBuffer">
+      <description>Octal BUS Transceivers, 3-State outputs</description>
+      <docs>https://www.ti.com/lit/ds/symlink/sn74hct245.pdf</docs>
+      <footprints>
+        <fp>DIP?20*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HCT245 (DIR=1)</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74hct245.pdf</field>
+        <field name="Description">Octal BUS Transceivers, 3-State outputs</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A-&gt;B" type="input"/>
+        <pin num="2" name="A0" type="input"/>
+        <pin num="3" name="A1" type="input"/>
+        <pin num="4" name="A2" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A4" type="input"/>
+        <pin num="7" name="A5" type="input"/>
+        <pin num="8" name="A6" type="input"/>
+        <pin num="9" name="A7" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="B7" type="tri_state"/>
+        <pin num="12" name="B6" type="tri_state"/>
+        <pin num="13" name="B5" type="tri_state"/>
+        <pin num="14" name="B4" type="tri_state"/>
+        <pin num="15" name="B3" type="tri_state"/>
+        <pin num="16" name="B2" type="tri_state"/>
+        <pin num="17" name="B1" type="tri_state"/>
+        <pin num="18" name="B0" type="tri_state"/>
+        <pin num="19" name="CE" type="input"/>
+        <pin num="20" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="ProjectSymbols" part="KR573RF5_ReadOnly">
+      <docs>https://storage.ua.prom.st/1093634_kr573rf5.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">KR573RF5 socket / READ ONLY</field>
+        <field name="Footprint">Package_DIP:DIP-24_W15.24mm_Socket_LongPads</field>
+        <field name="Datasheet">https://storage.ua.prom.st/1093634_kr573rf5.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A7" type="input"/>
+        <pin num="2" name="A6" type="input"/>
+        <pin num="3" name="A5" type="input"/>
+        <pin num="4" name="A4" type="input"/>
+        <pin num="5" name="A3" type="input"/>
+        <pin num="6" name="A2" type="input"/>
+        <pin num="7" name="A1" type="input"/>
+        <pin num="8" name="A0" type="input"/>
+        <pin num="9" name="D0" type="tri_state"/>
+        <pin num="10" name="D1" type="tri_state"/>
+        <pin num="11" name="D2" type="tri_state"/>
+        <pin num="12" name="GND" type="power_in"/>
+        <pin num="13" name="D3" type="tri_state"/>
+        <pin num="14" name="D4" type="tri_state"/>
+        <pin num="15" name="D5" type="tri_state"/>
+        <pin num="16" name="D6" type="tri_state"/>
+        <pin num="17" name="D7" type="tri_state"/>
+        <pin num="18" name="~{CE}" type="input"/>
+        <pin num="19" name="A10" type="input"/>
+        <pin num="20" name="~{OE}" type="input"/>
+        <pin num="21" name="VPP_(5V_READ)" type="power_in"/>
+        <pin num="22" name="A9" type="input"/>
+        <pin num="23" name="A8" type="input"/>
+        <pin num="24" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>${KICAD10_SYMBOL_DIR}/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>${KICAD10_SYMBOL_DIR}/Device.kicad_sym</uri>
+    </library>
+    <library logical="ProjectSymbols">
+      <uri>${KIPRJMOD}/ProjectSymbols.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="J1" pin="28" pinfunction="Pin_28_28" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="VPP_(5V_READ)_21" pintype="power_in"/>
+      <node ref="J2" pin="24" pinfunction="VCC_24" pintype="power_in"/>
+      <node ref="RN1" pin="5" pinfunction="R4.2_5" pintype="passive"/>
+      <node ref="RN1" pin="6" pinfunction="R3.2_6" pintype="passive"/>
+      <node ref="RN1" pin="7" pinfunction="R2.2_7" pintype="passive"/>
+      <node ref="RN1" pin="8" pinfunction="R1.2_8" pintype="passive"/>
+      <node ref="RN2" pin="5" pinfunction="R4.2_5" pintype="passive"/>
+      <node ref="RN2" pin="6" pinfunction="R3.2_6" pintype="passive"/>
+      <node ref="RN2" pin="7" pinfunction="R2.2_7" pintype="passive"/>
+      <node ref="RN2" pin="8" pinfunction="R1.2_8" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="A-&gt;B_1" pintype="input"/>
+      <node ref="U1" pin="20" pinfunction="VCC_20" pintype="power_in"/>
+    </net>
+    <net code="2" name="A0" class="Default">
+      <node ref="J1" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="A0_8" pintype="input"/>
+    </net>
+    <net code="3" name="A1" class="Default">
+      <node ref="J1" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="A1_7" pintype="input"/>
+    </net>
+    <net code="4" name="A2" class="Default">
+      <node ref="J1" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="A2_6" pintype="input"/>
+    </net>
+    <net code="5" name="A3" class="Default">
+      <node ref="J1" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="A3_5" pintype="input"/>
+    </net>
+    <net code="6" name="A4" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="A4_4" pintype="input"/>
+    </net>
+    <net code="7" name="A5" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="A5_3" pintype="input"/>
+    </net>
+    <net code="8" name="A6" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="A6_2" pintype="input"/>
+    </net>
+    <net code="9" name="A7" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="A7_1" pintype="input"/>
+    </net>
+    <net code="10" name="A8" class="Default">
+      <node ref="J1" pin="25" pinfunction="Pin_25_25" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="A8_23" pintype="input"/>
+    </net>
+    <net code="11" name="A9" class="Default">
+      <node ref="J1" pin="24" pinfunction="Pin_24_24" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="A9_22" pintype="input"/>
+    </net>
+    <net code="12" name="A10" class="Default">
+      <node ref="J1" pin="21" pinfunction="Pin_21_21" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="A10_19" pintype="input"/>
+    </net>
+    <net code="13" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14_14" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="GND_12" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="GND_10" pintype="power_in"/>
+    </net>
+    <net code="14" name="RF5_D0" class="Default">
+      <node ref="J2" pin="9" pinfunction="D0_9" pintype="tri_state"/>
+      <node ref="RN1" pin="1" pinfunction="R1.1_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="A0_2" pintype="input"/>
+    </net>
+    <net code="15" name="RF5_D1" class="Default">
+      <node ref="J2" pin="10" pinfunction="D1_10" pintype="tri_state"/>
+      <node ref="RN1" pin="2" pinfunction="R2.1_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="A1_3" pintype="input"/>
+    </net>
+    <net code="16" name="RF5_D2" class="Default">
+      <node ref="J2" pin="11" pinfunction="D2_11" pintype="tri_state"/>
+      <node ref="RN1" pin="3" pinfunction="R3.1_3" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="A2_4" pintype="input"/>
+    </net>
+    <net code="17" name="RF5_D3" class="Default">
+      <node ref="J2" pin="13" pinfunction="D3_13" pintype="tri_state"/>
+      <node ref="RN1" pin="4" pinfunction="R4.1_4" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A3_5" pintype="input"/>
+    </net>
+    <net code="18" name="RF5_D4" class="Default">
+      <node ref="J2" pin="14" pinfunction="D4_14" pintype="tri_state"/>
+      <node ref="RN2" pin="1" pinfunction="R1.1_1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="A4_6" pintype="input"/>
+    </net>
+    <net code="19" name="RF5_D5" class="Default">
+      <node ref="J2" pin="15" pinfunction="D5_15" pintype="tri_state"/>
+      <node ref="RN2" pin="2" pinfunction="R2.1_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A5_7" pintype="input"/>
+    </net>
+    <net code="20" name="RF5_D6" class="Default">
+      <node ref="J2" pin="16" pinfunction="D6_16" pintype="tri_state"/>
+      <node ref="RN2" pin="3" pinfunction="R3.1_3" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="A6_8" pintype="input"/>
+    </net>
+    <net code="21" name="RF5_D7" class="Default">
+      <node ref="J2" pin="17" pinfunction="D7_17" pintype="tri_state"/>
+      <node ref="RN2" pin="4" pinfunction="R4.1_4" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="A7_9" pintype="input"/>
+    </net>
+    <net code="22" name="ROM_CE#" class="Default">
+      <node ref="J1" pin="20" pinfunction="Pin_20_20" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="~{CE}_18" pintype="input"/>
+    </net>
+    <net code="23" name="ROM_D0" class="Default">
+      <node ref="J1" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="B0_18" pintype="tri_state"/>
+    </net>
+    <net code="24" name="ROM_D1" class="Default">
+      <node ref="J1" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="B1_17" pintype="tri_state"/>
+    </net>
+    <net code="25" name="ROM_D2" class="Default">
+      <node ref="J1" pin="13" pinfunction="Pin_13_13" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="B2_16" pintype="tri_state"/>
+    </net>
+    <net code="26" name="ROM_D3" class="Default">
+      <node ref="J1" pin="15" pinfunction="Pin_15_15" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="B3_15" pintype="tri_state"/>
+    </net>
+    <net code="27" name="ROM_D4" class="Default">
+      <node ref="J1" pin="16" pinfunction="Pin_16_16" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="B4_14" pintype="tri_state"/>
+    </net>
+    <net code="28" name="ROM_D5" class="Default">
+      <node ref="J1" pin="17" pinfunction="Pin_17_17" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="B5_13" pintype="tri_state"/>
+    </net>
+    <net code="29" name="ROM_D6" class="Default">
+      <node ref="J1" pin="18" pinfunction="Pin_18_18" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="B6_12" pintype="tri_state"/>
+    </net>
+    <net code="30" name="ROM_D7" class="Default">
+      <node ref="J1" pin="19" pinfunction="Pin_19_19" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B7_11" pintype="tri_state"/>
+    </net>
+    <net code="31" name="ROM_OE#" class="Default">
+      <node ref="J1" pin="22" pinfunction="Pin_22_22" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="~{OE}_20" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="CE_19" pintype="input"/>
+    </net>
+    <net code="32" name="unconnected-(J1-Pin_1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J1-Pin_23-Pad23)" class="Default">
+      <node ref="J1" pin="23" pinfunction="Pin_23_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J1-Pin_26-Pad26)" class="Default">
+      <node ref="J1" pin="26" pinfunction="Pin_26_26" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J1-Pin_27-Pad27)" class="Default">
+      <node ref="J1" pin="27" pinfunction="Pin_27_27" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

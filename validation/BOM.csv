@@ -1,0 +1,144 @@
+ref,value,symbol,footprint,sheet
+J1,USB Micro-B,Connector:USB_B_Micro,Connector_USB:USB_Micro-B_Molex-105017-0001,controller.kicad_sch
+F1,500mA hold,Device:Polyfuse,Fuse:Fuse_1812_4532Metric,controller.kicad_sch
+C1,10uF / 10V,Device:C,Capacitor_SMD:C_0805_2012Metric,controller.kicad_sch
+U5,CH340C,ProjectSymbols:CH340C_WCH,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,controller.kicad_sch
+C2,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C3,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+R4,1k,Device:R,Resistor_SMD:R_0603_1608Metric,controller.kicad_sch
+R5,1k,Device:R,Resistor_SMD:R_0603_1608Metric,controller.kicad_sch
+U1,ATmega328P-AU,MCU_Microchip_ATmega:ATmega328P-A,Package_QFP:TQFP-32_7x7mm_P0.8mm,controller.kicad_sch
+Y1,"16MHz, CL ~18pF",Device:Crystal,Crystal:Crystal_HC49-4H_Vertical,controller.kicad_sch
+C11,22pF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C12,22pF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+R1,10k,Device:R,Resistor_SMD:R_0603_1608Metric,controller.kicad_sch
+SW1,RESET,Switch:SW_Push,Button_Switch_THT:SW_PUSH_6mm,controller.kicad_sch
+C13,100nF auto-reset,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+D9,BAT54WS RESET clamp,Device:D_Schottky,Diode_SMD:D_SOD-323,controller.kicad_sch
+C4,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C5,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C6,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+C10,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,controller.kicad_sch
+J2,AVR ISP,Connector:AVR-ISP-6,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,controller.kicad_sch
+J3,UART (MCU RX/TX),Connector_Generic:Conn_01x03,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,controller.kicad_sch
+U2,74HC595D,74xx:74HC595,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,address_target.kicad_sch
+C7,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+U3,74HC595D,74xx:74HC595,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,address_target.kicad_sch
+C8,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+U4,74HC595D,74xx:74HC595,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,address_target.kicad_sch
+C14,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+R7,10k LATCH pull-down,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+U6,NM27C512Q SOCKET,Memory_EPROM:27C512,Package_DIP:DIP-28_W15.24mm_Socket_LongPads,address_target.kicad_sch
+C9,100nF / 16V,Device:C,Capacitor_SMD:C_0603_1608Metric,address_target.kicad_sch
+R2,10k CE pull-up,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+R3,10k OE pull-up,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+R8,10k PGM pull-up,Device:R,Resistor_SMD:R_0603_1608Metric,address_target.kicad_sch
+C15,10uF / 16V,Device:C,Capacitor_SMD:C_0805_2012Metric,address_target.kicad_sch
+R10,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D10,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R11,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D11,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R12,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D12,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R13,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D13,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R14,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D14,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R15,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D15,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R16,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D16,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R17,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D17,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+D2,RGB CA / 5050 OR THT5,ProjectSymbols:RGB_CA_DualMount,ProjectFootprints:RGB_CA_5050_or_THT5,data_status.kicad_sch
+R20,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+R21,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+R22,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+Q1,MMBT3906,Transistor_BJT:MMBT3906,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R23,10k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+R25,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D3,RX BLUE,Device:LED,LED_SMD:LED_0603_1608Metric,data_status.kicad_sch
+Q2,MMBT3906,Transistor_BJT:MMBT3906,Package_TO_SOT_SMD:SOT-23,data_status.kicad_sch
+R24,10k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+R26,1k,Device:R,Resistor_SMD:R_0603_1608Metric,data_status.kicad_sch
+D4,TX ORANGE,Device:LED,LED_SMD:LED_0603_1608Metric,data_status.kicad_sch
+U9,SN74HCT245DW,74xx:74HC245,Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,ttl_bus.kicad_sch
+C26,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,ttl_bus.kicad_sch
+R50,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D20,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R51,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D21,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R52,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D22,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R53,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D23,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R54,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D24,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R55,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D25,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R56,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D26,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+R57,1k,Device:R,Resistor_SMD:R_0603_1608Metric,ttl_bus.kicad_sch
+D27,BAT54S,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,ttl_bus.kicad_sch
+J4,J_VPP_IN,Connector_Generic:Conn_01x02,"TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal",programming_power.kicad_sch
+C20,100nF / 50V,Device:C,Capacitor_SMD:C_0603_1608Metric,programming_power.kicad_sch
+Q3,IRF9540N / 100V PMOS,Transistor_FET:IRF9540N,Package_TO_SOT_THT:TO-220-3_Vertical,programming_power.kicad_sch
+R30,47k gate-source,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+D5,BZT52C10 / 10V,Device:D_Zener,Diode_SMD:D_SOD-123,programming_power.kicad_sch
+R31,2.2k / 0.25W,Device:R,Resistor_SMD:R_1206_3216Metric,programming_power.kicad_sch
+Q4,MMBT3904,Transistor_BJT:MMBT3904,Package_TO_SOT_SMD:SOT-23,programming_power.kicad_sch
+R32,1k,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+R33,10k base pull-down,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+U10,74LVC1G08 / arm interlock,74xGxx:74LVC1G08,Package_TO_SOT_SMD:SOT-23-5,programming_power.kicad_sch
+C27,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,programming_power.kicad_sch
+R60,10k arm pull-down,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+C28,100nF / 50V,Device:C,Capacitor_SMD:C_0603_1608Metric,programming_power.kicad_sch
+R61,100k bleed,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+U7,LM317T: calibrate 6.250 V,Regulator_Linear:LM317_TO-220,Package_TO_SOT_THT:TO-220-3_Vertical,programming_power.kicad_sch
+C23,100nF / 50V,Device:C,Capacitor_SMD:C_0603_1608Metric,programming_power.kicad_sch
+C24,10uF / 16V,Device:C,Capacitor_SMD:C_1206_3216Metric,programming_power.kicad_sch
+R40,120R / 1%,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+R41,430R / 1%,Device:R,Resistor_SMD:R_0603_1608Metric,programming_power.kicad_sch
+RV1,100R multi-turn,Device:R_Potentiometer,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,programming_power.kicad_sch
+D7,1N4007 output protection,Device:D,Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal,programming_power.kicad_sch
+Q7,MMBT5401 / 150V PNP,Transistor_BJT:Q_PNP_BEC,Package_TO_SOT_SMD:SOT-23,programming_pulse.kicad_sch
+R62,10k base-emitter,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+R63,2.2k / 0.25W,Device:R,Resistor_SMD:R_1206_3216Metric,programming_pulse.kicad_sch
+Q6,MMBT5551 / 160V NPN,Transistor_BJT:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,programming_pulse.kicad_sch
+R64,1k,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+R65,10k,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+U8,74LVC1G08 / pulse interlock,74xGxx:74LVC1G08,Package_TO_SOT_SMD:SOT-23-5,programming_pulse.kicad_sch
+C21,100nF,Device:C,Capacitor_SMD:C_0603_1608Metric,programming_pulse.kicad_sch
+R34,10k VPP_EN pull-down,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+R35,120k / 1%,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+R36,22k / 1%,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+C22,10nF,Device:C,Capacitor_SMD:C_0603_1608Metric,programming_pulse.kicad_sch
+D30,ADC6 BAT54S clamp,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,programming_pulse.kicad_sch
+R37,10k bleed,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+R38,5.1k,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+R39,5.1k,Device:R,Resistor_SMD:R_0603_1608Metric,programming_pulse.kicad_sch
+D6,VPP ACTIVE RED,Device:LED,LED_SMD:LED_0603_1608Metric,programming_pulse.kicad_sch
+K1,G5V-2-DC5 (100mA coil),Relay:G5V-2,Relay_THT:Relay_DPDT_Omron_G5V-2,target_interface.kicad_sch
+Q5,MMBT3904,Transistor_BJT:MMBT3904,Package_TO_SOT_SMD:SOT-23,target_interface.kicad_sch
+R42,470R relay drive,Device:R,Resistor_SMD:R_0603_1608Metric,target_interface.kicad_sch
+R43,10k,Device:R,Resistor_SMD:R_0603_1608Metric,target_interface.kicad_sch
+R44,10k,Device:R,Resistor_SMD:R_0603_1608Metric,target_interface.kicad_sch
+D8,1N4148WS flyback,Device:D,Diode_SMD:D_SOD-323,target_interface.kicad_sch
+R45,10k / 1%,Device:R,Resistor_SMD:R_0603_1608Metric,target_interface.kicad_sch
+R46,10k / 1%,Device:R,Resistor_SMD:R_0603_1608Metric,target_interface.kicad_sch
+C25,10nF,Device:C,Capacitor_SMD:C_0603_1608Metric,target_interface.kicad_sch
+D31,ADC7 BAT54S clamp,Diode:BAT54S,Package_TO_SOT_SMD:SOT-23,target_interface.kicad_sch
+J5,J_TARGET / 40-pin,Connector_Generic:Conn_02x20_Odd_Even,Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,target_interface.kicad_sch
+TP1,TP_5V,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP2,TP_GND,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP3,TP_6V25,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP4,TP_VPP_IN,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP5,TP_VPP_SW,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP6,TP_RESET,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP7,TP_ADDR_SCK,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP8,TP_ADDR_LATCH,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP9,TP_CE,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP10,TP_OE,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP11,TP_PGM,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP12,TP_RX,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch
+TP13,TP_TX,Connector:TestPoint,TestPoint:TestPoint_Pad_D1.5mm,testpoints_safety.kicad_sch

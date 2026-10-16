@@ -1,0 +1,15 @@
+{
+  "vias": 80,
+  "via_sizes": {
+    "(1.6, 0.85)": 7,
+    "(0.6, 0.3)": 69,
+    "(1.4, 0.8)": 1,
+    "(1.2, 0.65)": 3
+  },
+  "pth_with_tracks_on_both_sides": 2,
+  "pth_refs": {
+    "U5": 1,
+    "J2": 1
+  },
+  "note": "Footprint bounding boxes are candidates only; inspect Fab layers. PTH contact detection uses track endpoint hit tests."
+}

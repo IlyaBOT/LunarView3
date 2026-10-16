@@ -1,0 +1,51 @@
+{
+  "board": "Adapter-KR573RF5\\KR573RF5_Adapter.kicad_pcb",
+  "sha256_before": "3c353c99f487723dc42f4f999bd3dfa6bef434b9877a86d2b0021b767cc5a69e",
+  "sha256_after": "a811e9869a9d2e9c7c02abf23a1ccc5d63d1017b6a9316a5914b86cf0ab0a827",
+  "backup": "Adapter-KR573RF5\\backups\\2026-10-07-before-gnd-zones\\3c353c99f487",
+  "existing_non_zone_nodes_unchanged": true,
+  "added_ground_via": {
+    "uuid": "3ae635e2-147d-40f1-b4d0-b3c4594a307b",
+    "x_mm": 61.43,
+    "y_mm": 55.08,
+    "pad_mm": 1.2,
+    "drill_mm": 0.6
+  },
+  "zones": 2,
+  "net": "GND",
+  "layers": [
+    "F.Cu",
+    "B.Cu"
+  ],
+  "settings": {
+    "clearance_mm": 0.25,
+    "minimum_width_mm": 0.25,
+    "thermal_gap_mm": 0.25,
+    "thermal_spoke_width_mm": 0.3,
+    "edge_inset_mm": 0.55,
+    "remove_unconnected_islands": "always"
+  },
+  "filled_polygon_count": {
+    "F.Cu": 4,
+    "B.Cu": 5
+  },
+  "fill_details": {
+    "F.Cu": {
+      "filled_polygons": 4,
+      "filled_area_mm2": 412.466466088139,
+      "net": "GND"
+    },
+    "B.Cu": {
+      "filled_polygons": 5,
+      "filled_area_mm2": 217.145134092376,
+      "net": "GND"
+    }
+  },
+  "existing_drc_warnings_unchanged": true,
+  "new_drc_violations": 0,
+  "existing_silkscreen_warnings": 16,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "track_segments": 275,
+  "vias": 19
+}
